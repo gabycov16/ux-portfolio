@@ -2,7 +2,6 @@ import React from "react";
 import "./mixup.styles.scss";
 import Header from "../../components/header/header.component";
 import Banner from "../../assets/mixup/banner3.png";
-import LineG from "../../assets/line.svg";
 import DesignProcess from "../../assets/design-process-mixup.png";
 import Persona from "../../assets/persona-mixup.png";
 import CustomerJourney from "../../assets/customer-journey.png";
@@ -27,7 +26,6 @@ import BeforeCheckout from "../../assets/mixup/before-checkout.png";
 import AfterCheckout from "../../assets/mixup/after-checkout.png";
 import Blueish from "../../assets/mixup/blueish.png";
 import Conversation from "../../assets/conversation2.svg";
-import Ecolife from "../../assets/ecolife.svg";
 
 const Mixup = props => (
   <div className="king-container">
