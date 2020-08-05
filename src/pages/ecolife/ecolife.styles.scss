@@ -1,0 +1,896 @@
+.body {
+  padding-right: 0;
+  .title-name {
+    margin: 0 0 30px 0;
+    pointer-events: none;
+    align-self: center;
+    color: #86d780;
+    font-weight: 400;
+    font-size: 65px;
+    font-family: "MuseoModerno";
+  }
+  .title-alternative {
+    color: #3a5a6b;
+    font-weight: 400;
+    font-size: 52px;
+    margin: 0;
+    text-decoration: none;
+    pointer-events: none;
+    font-family: "Open Sans";
+    white-space: pre-wrap;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+  .banner {
+    width: 70%;
+    align-self: center;
+    padding: 4rem 0;
+  }
+  .mobile-image {
+    width: 25%;
+    align-self: center;
+  }
+  .design-process {
+    width: 58%;
+    align-self: center;
+    padding: 50px 0;
+  }
+  .line {
+    padding: 30px 0;
+  }
+  .text {
+    font-size: 30px;
+    color: #6c6c6c;
+    text-align: center;
+    white-space: pre-wrap;
+  }
+  .text-app-description {
+    font-size: 30px;
+    color: #6c6c6c;
+    text-align: center;
+    padding: 0 300px;
+    white-space: pre-wrap;
+  }
+  .text-e {
+    font-size: 22px;
+    color: #6c6c6c;
+    padding: 0 300px;
+    //text-align: justify;
+    margin: 20px 0;
+    white-space: pre-wrap;
+    li {
+      margin: 1em 0;
+      margin-left: 1.4rem;
+    }
+  }
+  .text-column {
+    font-size: 22px;
+    color: #6c6c6c;
+    padding-right: 0 50px 0 0;
+    text-align: justify;
+    align-self: flex-start;
+    white-space: pre-wrap;
+  }
+  .text-column-p {
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .emphasis {
+    color: #23aa8f;
+    font-weight: 600;
+    text-decoration: none;
+    pointer-events: none;
+  }
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    font-size: 23px;
+    text-align: center;
+    color: #6c6c6c;
+    font-weight: 300;
+    white-space: pre-wrap;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 4rem 0;
+
+    p {
+      padding: 0 43%;
+    }
+  }
+  .quoting {
+    font-family: "MuseoModerno";
+    font-size: 40px;
+    color: #86d780;
+  }
+  .section-title-a {
+    padding: 50px 300px 20px;
+    font-size: 45px;
+    color: #86d780;
+    font-weight: 600;
+    align-self: center;
+    white-space: pre-wrap;
+    font-family: "MuseoModerno";
+  }
+  .section-title {
+    padding: 50px 300px 0;
+    font-size: 34px;
+    color: #007882;
+    font-weight: 500;
+    white-space: pre-wrap;
+    font-family: "MuseoModerno";
+  }
+  .image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .photograph {
+      width: 300px;
+      height: 450px;
+      padding: 0;
+      border: 1px solid #6c6c6c;
+      border-radius: 15%;
+    }
+    .low-fidelity {
+      width: 450px;
+      height: 400px;
+    }
+
+    .text-columns-right {
+      padding-right: 30px;
+    }
+  }
+  .guidance {
+    width: 350px;
+    height: 130px;
+    padding: 2rem 200px;
+  }
+  .personas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 50px 300px;
+    .persona {
+      width: 700px;
+      min-width: 30%;
+      padding: 50px 0;
+      background-position: "center";
+      background-size: "cover";
+      background-repeat: "no-repeat";
+      &:hover {
+        transform: scale(1.4);
+        transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+    }
+    .smaller-image {
+      width: 300px;
+      padding: 50px 0;
+      align-self: center;
+      &:hover {
+        transform: scale(1.4);
+        transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      }
+    }
+    .cont {
+      display: flex;
+      flex-direction: column;
+      color: #6c6c6c;
+      font-size: 20px;
+      font-weight: 600;
+      white-space: pre-wrap;
+    }
+  }
+  .story-board {
+    width: 700px;
+    min-width: 30%;
+    background-position: "center";
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    align-self: center;
+    &:hover {
+      transform: scale(1.3);
+      transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+  }
+}
+.card-sort {
+  width: 700px;
+  padding: 2rem 0 50px;
+  min-width: 30%;
+  align-self: center;
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  &:hover {
+    transform: scale(1.3);
+    transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  }
+}
+
+@media screen and (min-device-width: 1500px) and (max-device-width: 1600px) {
+  .body {
+    .quote {
+      height: 350px;
+      font-size: 23px;
+      p {
+        padding: 0 43%;
+      }
+    }
+  }
+}
+@media screen and (min-device-width: 1100px) and (max-device-width: 1500px) {
+  .body {
+    .quote {
+      height: 350px;
+      font-size: 23px;
+      p {
+        padding: 0 42%;
+      }
+    }
+  }
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1100px) {
+  .body {
+    .section-title {
+      padding: 50px 200px 0;
+    }
+    .section-title-a {
+      padding: 50px 200px 20px;
+    }
+    .text-e {
+      padding: 0 200px;
+    }
+    .image-text {
+      padding: 0 200px 40px;
+    }
+    .text-column-p {
+      padding: 0 200px;
+    }
+    .text-app-description {
+      padding: 0 200px;
+    }
+    .personas {
+      padding: 0 200px;
+      .persona {
+        width: 500px;
+      }
+    }
+    .response {
+      padding: 0 200px;
+    }
+    .subtitle2 {
+      padding: 0 200px;
+    }
+    .image-text-horizontal {
+      padding: 0 200px;
+    }
+    .stars {
+      star {
+        width: 3rem;
+      }
+    }
+    .quote p {
+      padding: 0px 40%;
+    }
+  }
+}
+@media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
+  .body {
+    .title-name {
+      font-size: 55px;
+    }
+    .title-alternative {
+      font-size: 45px;
+    }
+    .text-e {
+      padding: 0 150px;
+      font-size: 20px;
+    }
+    .image-text {
+      padding: 0 150px 40px;
+      .guidance {
+        width: 300px;
+        height: 100px;
+      }
+    }
+    .text-column-p {
+      padding: 0 150px;
+    }
+    .text-column {
+      font-size: 20px;
+    }
+    .response {
+      font-size: 20px;
+      padding: 0 150px;
+    }
+    .text-app-description {
+      padding: 0 150px;
+      font-size: 25px;
+    }
+    .personas {
+      padding: 0 150px;
+      .persona {
+        width: 500px;
+      }
+    }
+    .story-board {
+      width: 500px;
+    }
+    .card-sort {
+      width: 500px;
+    }
+    .image-text-horizontal {
+      padding: 0 150px 0;
+      .text-i {
+        font-size: 20px;
+      }
+    }
+    .section-title-a {
+      padding: 50px 150px 0;
+      font-size: 30px;
+    }
+    .section-title {
+      padding: 50px 150px 0;
+      font-size: 24px;
+    }
+    .subtitle2 {
+      font-size: 20px;
+    }
+    .quote {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 900px) {
+  .body {
+    .section-title {
+      padding: 0 120px;
+      font-size: 24px;
+    }
+    .section-title-a {
+      padding: 30px 120px 20px;
+      font-size: 34px;
+    }
+    .title-alternative {
+      font-size: 40px;
+    }
+    .text-e {
+      padding: 0 120px;
+      font-size: 20px;
+    }
+    .response {
+      padding: 0 120px;
+      font-size: 20px;
+    }
+    .image-text {
+      padding: 0 120px 40px;
+    }
+    .text-column-p {
+      padding: 0 120px;
+    }
+    .text-app-description {
+      padding: 0 120px;
+      font-size: 25px;
+    }
+    .guidance {
+      padding: 3rem 120px;
+      height: 140px;
+    }
+    .personas {
+      padding: 0 120px;
+      .persona {
+        width: 480px !important;
+      }
+      .cont {
+        font-size: 18px;
+      }
+    }
+    .story-board {
+      width: 480px !important;
+    }
+    .card-sort {
+      width: 480px !important;
+    }
+    .design-process {
+      width: 67%;
+      padding: 30px 0;
+    }
+    .quote {
+      height: 240px;
+      font-size: 16px;
+    }
+    .subtitle2 {
+      padding: 0 120px;
+      font-size: 20px;
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 120px;
+      .text-i {
+        font-size: 22px;
+        color: #6c6c6c;
+        text-align: justify;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 700px) and (max-device-width: 800px) {
+  .body {
+    .section-title {
+      padding: 0 100px;
+      font-size: 22px;
+    }
+    .section-title-a {
+      padding: 30px 100px 20px;
+      font-size: 27px;
+    }
+    .title-name {
+      font-size: 47px !important;
+    }
+    .title-alternative {
+      font-size: 30px;
+    }
+    .text-e {
+      padding: 0 100px;
+      font-size: 20px;
+    }
+    .response {
+      padding: 0 100px;
+      font-size: 20px;
+      li {
+        font-size: 20px;
+      }
+    }
+    .subtitle2 {
+      font-size: 20px;
+      padding: 0 100px;
+    }
+    .image-text {
+      padding: 0 100px 40px;
+    }
+    .text-column-p {
+      padding: 0 100px;
+    }
+    .text-app-description {
+      padding: 0 100px;
+      font-size: 22px;
+    }
+    .guidance {
+      padding: 3rem 100px;
+      height: 120px;
+      width: 300px;
+    }
+    .personas {
+      padding: 0 100px;
+      .persona {
+        width: 430px;
+      }
+    }
+    .story-board {
+      width: 430px;
+    }
+    .card-sort {
+      width: 430px;
+    }
+    .design-process {
+      width: 67%;
+      padding: 30px 0;
+    }
+    .quote {
+      height: 240px;
+      font-size: 17px;
+      p {
+        padding: -0 37%;
+      }
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 100px;
+      .text-i {
+        font-size: 20px;
+        color: #6c6c6c;
+        text-align: justify;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 700px) {
+  .body {
+    .title-name {
+      font-size: 45px !important;
+    }
+    .title-alternative {
+      font-size: 30px !important;
+    }
+    .section-title {
+      padding: 0 50px;
+      font-size: 22px;
+    }
+    .section-title-a {
+      padding: 30px 50px 20px;
+      font-size: 27px;
+    }
+    .text-e {
+      padding: 0 50px;
+      font-size: 16px;
+    }
+    .image-text {
+      padding: 0 50px 40px;
+    }
+    .response {
+      font-weight: 200;
+      font-size: 16px;
+      color: #6c6c6c;
+      padding: 0 50px;
+      text-align: justify;
+      margin: 0 !important;
+    }
+    .text-column-p {
+      padding: 0 50px;
+    }
+    .text-app-description {
+      padding: 0 50px;
+      font-size: 20px;
+    }
+    .guidance {
+      padding: 3rem 50px;
+      height: 120px;
+      width: 300px;
+    }
+    .personas {
+      padding: 0 50px;
+      .persona {
+        width: 85% !important;
+      }
+      .cont {
+        font-size: 16px;
+      }
+    }
+    .story-board {
+      width: 85%;
+    }
+    .card-sort {
+      width: 85%;
+    }
+    .design-process {
+      width: 67%;
+      padding: 30px 0;
+    }
+    .stars .star {
+      width: 2rem;
+    }
+    .quote {
+      width: 270px;
+      margin: 0;
+      font-size: 16px;
+      align-self: center;
+      p {
+        padding: 0px 26%;
+      }
+    }
+    .response {
+      li {
+        font-size: 16px;
+      }
+    }
+    .subtitle2 {
+      font-size: 18px;
+      padding: 0 50px;
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 50px;
+      .text-i {
+        font-size: 16px;
+        color: #6c6c6c;
+        text-align: justify;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 600px) {
+  .body {
+    .title-name {
+      font-size: 38px !important;
+    }
+    .title-alternative {
+      font-size: 32px;
+    }
+    .section-title {
+      padding: 0 80px;
+      font-size: 20px;
+    }
+    .section-title-a {
+      padding: 30px 80px 20px;
+      font-size: 27px;
+    }
+    .text-e {
+      padding: 0 80px;
+      font-size: 16px;
+    }
+    .image-text {
+      padding: 0 80px 40px;
+    }
+    .text-column-p {
+      padding: 0 80px;
+    }
+    .text-app-description {
+      padding: 0 80px;
+      font-size: 22px;
+    }
+    .guidance {
+      padding: 3rem 80px;
+      height: 120px;
+      width: 300px;
+    }
+    .subtitle2 {
+      font-size: 16px;
+      padding: 0 80px;
+    }
+    .personas {
+      padding: 0 80px;
+      .persona {
+        width: 100%;
+      }
+      .cont {
+        font-size: 16px;
+      }
+    }
+    .stars .star {
+      width: 2rem;
+    }
+    .quote {
+      width: 250px;
+      margin: 0;
+      font-size: 16px;
+      align-self: center;
+      p {
+        padding: 0px 26%;
+      }
+    }
+    .response {
+      padding: 0 80px;
+      font-size: 16px;
+      li {
+        font-size: 16px;
+      }
+    }
+    .story-board {
+      width: 380px;
+    }
+    .card-sort {
+      width: 380px;
+    }
+    .design-process {
+      width: 75%;
+      padding: 30px 80px;
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 80px;
+      .text-i {
+        font-size: 16px;
+        color: #6c6c6c;
+        text-align: justify;
+        margin: 20px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 500px) {
+  .body {
+    .title-name {
+      font-size: 38px !important;
+    }
+    .title-alternative {
+      font-size: 32px;
+    }
+    .section-title {
+      padding: 0 80px;
+      font-size: 20px;
+    }
+    .section-title-a {
+      padding: 30px 80px 20px;
+      font-size: 25px;
+    }
+    .text-e {
+      padding: 0 80px;
+      font-size: 14px;
+    }
+    .image-text {
+      padding: 0 80px 40px;
+    }
+    .text-column-p {
+      padding: 0 80px;
+    }
+    .text-app-description {
+      padding: 0 80px;
+      font-size: 18px;
+    }
+    .guidance {
+      padding: 3rem 80px;
+      height: 90px;
+      width: 200px;
+    }
+    .subtitle2 {
+      font-size: 14px;
+      padding: 0 80px;
+    }
+    .personas {
+      padding: 0 80px;
+      .persona {
+        width: 100%;
+      }
+      .cont {
+        font-size: 14px;
+      }
+    }
+    .stars .star {
+      width: 2rem;
+    }
+    .quote {
+      width: 250px;
+      margin: 0;
+      font-size: 14px;
+      align-self: center;
+      p {
+        padding: 0px 26%;
+      }
+    }
+    .response {
+      padding: 0 80px;
+      font-size: 14px;
+      li {
+        font-size: 14px;
+      }
+    }
+    .story-board {
+      width: 240px;
+    }
+    .card-sort {
+      width: 240px;
+    }
+    .design-process {
+      width: 75%;
+      padding: 30px 80px;
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 80px;
+      .text-i {
+        font-size: 14px;
+        color: #6c6c6c;
+        text-align: justify;
+        margin: 20px 0;
+      }
+    }
+    ul {
+      padding-inline-start: 10px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 319.5px) and (max-device-width: 400px) {
+  .body {
+    .title-name {
+      font-size: 30px !important;
+    }
+    .title-alternative {
+      font-size: 23px;
+      padding: 0 50px;
+    }
+    .banner {
+      padding: 1rem 0;
+    }
+    .section-title {
+      padding: 0 50px;
+      font-size: 20px;
+    }
+    .section-title-a {
+      padding: 30px 50px 20px;
+      font-size: 24px;
+    }
+    .text-e {
+      padding: 0 50px;
+      font-size: 14px;
+    }
+    .image-text {
+      padding: 0 80px 40px;
+    }
+    .text-column-p {
+      padding: 0 50px;
+    }
+    .text-app-description {
+      padding: 0 50px;
+      font-size: 18px;
+    }
+    .guidance {
+      padding: 3rem 50px;
+      height: 90px;
+      width: 200px;
+    }
+    .subtitle2 {
+      font-size: 14px;
+      padding: 0 50px;
+    }
+    .personas {
+      padding: 0 50px;
+      .persona {
+        width: 100%;
+      }
+      .cont {
+        font-size: 14px;
+      }
+      .smaller-image {
+        width: 75%;
+      }
+    }
+    .stars .star {
+      width: 2rem;
+    }
+    .quote {
+      width: 240px;
+      margin: 0;
+      font-size: 14px;
+      align-self: center;
+      p {
+        padding: 0px 26%;
+      }
+    }
+    .response {
+      padding: 0 50px;
+      font-size: 14px;
+      li {
+        font-size: 14px;
+      }
+    }
+    .story-board {
+      width: 220px;
+    }
+    .card-sort {
+      width: 220px;
+    }
+    .design-process {
+      width: 75%;
+      padding: 30px 50px;
+    }
+    .line {
+      padding: 0;
+    }
+    .image-text-horizontal {
+      padding: 0 50px;
+      .text-i {
+        font-size: 14px;
+        color: #6c6c6c;
+
+        margin: 20px 0;
+      }
+    }
+    ul {
+      padding-inline-start: 10px;
+    }
+  }
+}

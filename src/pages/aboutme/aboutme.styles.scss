@@ -1,0 +1,522 @@
+.homepage {
+  .bio {
+    padding: 0px 300px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+    .portrait {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      align-self: center;
+    }
+
+    .text {
+      color: #6c6c6c;
+      font-weight: 200;
+      text-align: center;
+    }
+    .name {
+      color: #86d780;
+      font-weight: 700;
+      text-decoration: none;
+      pointer-events: none;
+    }
+    .emphasis {
+      color: #23aa8f;
+      font-weight: 600;
+      text-decoration: none;
+      pointer-events: none;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 300px;
+    .button-b {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #007882;
+      width: 200px;
+      height: 50px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #007882;
+      background-color: transparent;
+      cursor: pointer;
+      margin: 20px;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #86d780;
+        color: #86d780;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/linkedin.svg);
+        background-size: 20px 20px;
+      }
+    }
+    .button-c {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #007882;
+      width: 280px;
+      height: 50px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #007882;
+      background-color: transparent;
+      cursor: pointer;
+      margin: 20px;
+      z-index: 100;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #86d780;
+        color: #86d780;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/mail2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        color: #007882;
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/mail.svg);
+        background-size: 20px 20px;
+      }
+      span {
+        padding: 4% 4%;
+      }
+    }
+  }
+
+  .section-title {
+    padding: 50px 300px;
+    font-size: 25px;
+    color: #007882;
+    font-weight: 700;
+  }
+
+  .image-text {
+    display: flex;
+    padding: 0 300px 40px;
+    //align-items: center;
+    img {
+      width: 80px;
+      height: 80px;
+      padding-right: 30px;
+    }
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        color: #86d780;
+      }
+      :visited {
+        color: #007882;
+      }
+
+      .title {
+        color: #6c6c6c;
+        font-size: 20px;
+        margin: 0 0 10px 0;
+        font-weight: 600;
+      }
+      .subtitle {
+        color: #959595;
+        font-size: 20px;
+        margin: 0;
+      }
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-color: #959595;
+    margin-top: 50px;
+    img {
+      height: 15px;
+      margin-bottom: 30px;
+    }
+    .contact-title {
+      font-size: 35px;
+      color: #6c6c6c;
+      font-weight: 700;
+      padding: 20px 0;
+    }
+    .contact-subtitle {
+      font-size: 25px;
+      color: #6c6c6c;
+    }
+    .email {
+      color: #007882;
+      font-size: 25px;
+      padding-bottom: 5rem;
+    }
+  }
+}
+@media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
+  .homepage {
+    .bio {
+      padding: 0px 200px;
+    }
+    .section-title {
+      padding: 50px 200px;
+    }
+    .image-text {
+      padding: 0 200px 40px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 900px) {
+  .homepage {
+    .bio {
+      padding: 0px 120px;
+      font-size: 20px;
+    }
+    .buttons {
+      .button-b {
+        font-size: 18px;
+        width: 150px;
+      }
+      .button-c {
+        font-size: 18px;
+        width: 230px;
+      }
+    }
+    .section-title {
+      padding: 50px 120px;
+    }
+    .image-text {
+      padding: 0 120px 40px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width: 768px) {
+  .homepage {
+    .bio {
+      padding: 0px 100px;
+      font-size: 20px;
+    }
+    .buttons {
+      form {
+        display: flex;
+        height: 50px;
+        width: 260px;
+        align-items: center;
+        justify-content: center;
+        .button-c {
+          font-size: 18px;
+          width: 210px;
+        }
+        .button-b {
+          font-size: 18px;
+        }
+      }
+    }
+    .section-title {
+      font-size: 20px;
+      padding: 30px 80px;
+    }
+    .image-text {
+      padding: 0 100px 40px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        padding-right: 30px;
+      }
+      .text-wrapper {
+        .title {
+          font-size: 18px;
+        }
+        .subtitle {
+          font-size: 18px;
+        }
+      }
+    }
+    .contact {
+      margin-top: 50px;
+      img {
+        height: 9px;
+        margin-bottom: 30px;
+      }
+      .contact-title {
+        font-size: 25px;
+      }
+      .contact-subtitle {
+        font-size: 20px;
+      }
+      .email {
+        color: #007882;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 600px) {
+  .homepage {
+    .bio {
+      padding: 0px 100px;
+      font-size: 20px;
+    }
+    .buttons {
+      padding: 0 100px;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: space-evenly;
+      height: 130px;
+      form {
+        height: 50px;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button-c {
+          font-size: 18px;
+          width: 210px;
+        }
+        .button-b {
+          font-size: 18px;
+          width: 160px;
+        }
+      }
+    }
+    .section-title {
+      font-size: 20px;
+      padding: 30px 80px;
+    }
+    .image-text {
+      padding: 0 100px 40px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        padding-right: 30px;
+      }
+      .text-wrapper {
+        .title {
+          font-size: 18px;
+        }
+        .subtitle {
+          font-size: 18px;
+        }
+      }
+    }
+    .contact {
+      margin-top: 50px;
+      img {
+        height: 9px;
+        margin-bottom: 30px;
+      }
+      .contact-title {
+        font-size: 25px;
+      }
+      .contact-subtitle {
+        font-size: 20px;
+      }
+      .email {
+        color: #007882;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 400px) and (max-device-width: 500px) {
+  .homepage {
+    .bio {
+      padding: 0px 60px;
+      font-size: 16px;
+      .portrait {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    .buttons {
+      padding: 0 60px;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: space-evenly;
+      height: 130px;
+      form {
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button-c {
+          font-size: 15px;
+          width: 210px;
+        }
+        .button-b {
+          font-size: 15px;
+          height: 44px;
+          width: 160px;
+        }
+      }
+    }
+    .section-title {
+      font-size: 18px;
+      padding: 10px 80px;
+    }
+    .image-text {
+      padding: 0 60px 40px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        padding-right: 30px;
+      }
+      .text-wrapper {
+        .title {
+          font-size: 16px;
+        }
+        .subtitle {
+          font-size: 16px;
+        }
+      }
+    }
+    .contact {
+      margin-top: 50px;
+      img {
+        height: 9px;
+        margin-bottom: 30px;
+      }
+      .contact-title {
+        font-size: 20px;
+      }
+      .contact-subtitle {
+        font-size: 15px;
+      }
+      .email {
+        color: #007882;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 400px) {
+  .homepage {
+    .bio {
+      padding: 0px 50px;
+      font-size: 16px;
+      .portrait {
+        width: 100px;
+        height: 100px;
+      }
+    }
+    .buttons {
+      padding: 0 50px;
+      align-items: center;
+      flex-wrap: wrap;
+      align-content: space-evenly;
+      height: 150px;
+      form {
+        height: 50px;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button-c {
+          font-size: 16px;
+          width: 210px;
+        }
+        .button-b {
+          font-size: 16px;
+          height: 44px;
+          width: 160px;
+        }
+      }
+    }
+    .section-title {
+      font-size: 18px;
+      padding: 10px 50px;
+    }
+    .image-text {
+      padding: 0 50px 40px;
+      display: flex;
+      align-items: center;
+      img {
+        width: 50px;
+        height: 50px;
+        padding-right: 30px;
+      }
+      .text-wrapper {
+        .title {
+          font-size: 15px;
+        }
+        .subtitle {
+          font-size: 15px;
+        }
+      }
+    }
+    .contact {
+      margin-top: 50px;
+      img {
+        height: 9px;
+        margin-bottom: 30px;
+      }
+      .contact-title {
+        font-size: 20px;
+      }
+      .contact-subtitle {
+        font-size: 15px;
+      }
+      .email {
+        color: #007882;
+        font-size: 15px;
+      }
+    }
+  }
+}
