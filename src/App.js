@@ -16,9 +16,9 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/about-me" component={AboutMePage} />
-          <Route exact path="/case-studies" component={Portfolio} />
-          <Route path="/case-studies/mixup" component={Mixup} />
-          <Route path="/case-studies/ecolife" component={Ecolife} />
+          <Route exact path="/ux-portfolio" component={Portfolio} />
+          <Route path="/ux-portfolio/mixup" component={Mixup} />
+          <Route path="/ux-portfolio/ecolife" component={Ecolife} />
         </Switch>
       </div>
     );
