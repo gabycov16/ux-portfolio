@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter} from 'react-router-dom';
 import "./ecolife.styles.scss";
 import Header from "../../components/header/header.component";
 import HorizontalImage from "../../assets/ecolife/banner.png";
@@ -19,6 +20,7 @@ import Tutoriales from "../../assets/ecolife/tutoriales.png";
 import EcoWisdom from "../../assets/ecolife/ecowisdom.png";
 import Settings from "../../assets/ecolife/settings.png";
 import Tutorial from "../../assets/ecolife/tutorial.png";
+import { Route, Switch, Link, Redirect, BrowserRouter as Router } from "react-router-dom";
 
 
 const Ecolife = props => (
@@ -404,4 +406,4 @@ const Ecolife = props => (
   </div>
 );
 
-export default Ecolife;
+export default  withRouter(Ecolife);

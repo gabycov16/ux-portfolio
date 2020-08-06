@@ -1,4 +1,6 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
+
 import "./aboutme.styles.scss";
 import Header from "../../components/header/header.component";
 import Portrait from "../../assets/moi.jpg";
@@ -162,4 +164,4 @@ const AboutMePage = () => (
   </div>
 );
 
-export default AboutMePage;
+export default withRouter(AboutMePage);

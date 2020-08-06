@@ -1,4 +1,5 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import "./homepage.styles.scss";
 import Header from "../../components/header/header.component";
 
@@ -41,4 +42,4 @@ const HomePage = props => (
   </div>
 );
 
-export default HomePage;
+export default withRouter(HomePage);

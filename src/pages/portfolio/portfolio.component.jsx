@@ -4,14 +4,14 @@ import Mixup from "../../assets/mixup.svg";
 import Ecolife from "../../assets/ecolife.svg";
 import Header from "../../components/header/header.component";
 
-const Portfolio = props => (
+const Portfolio = ({ history, linkUrl, match }) => (
   <div className="king-container">
     <div className="homepage">
       <Header />
       <div className="title-c">UX Projects:</div>
       <div
         className="case-studies"
-        onClick={() => props.history.push("/ux-portfolio/mixup")}
+        onClick={() => history.push(`${match.url}/mixup`)}     
       >
         <div
           className="case-studies__image"
@@ -30,7 +30,7 @@ const Portfolio = props => (
       </div>
       <div
         className="case-studies"
-        onClick={() => props.history.push("/ux-portfolio/ecolife")}
+        onClick={() => history.push(`${match.url}/ecolife`)}
       >
         <div
           className="case-studies__image"
