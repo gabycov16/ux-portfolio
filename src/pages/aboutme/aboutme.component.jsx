@@ -9,7 +9,6 @@ import Anahuac from "../../assets/1200px-Logo_Universidad_Anahuac.svg.png";
 import Acomer from "../../assets/imagotiponaranjacool.svg";
 import Cefim from "../../assets/LOGO-VERTICAL-2009p.jpg";
 import Idf from "../../assets/idf.jpg";
-import LineGreen from "../../assets/line.svg";
 
 const AboutMePage = () => (
   <div className="king-container">
@@ -151,7 +150,6 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="contact">
-        <img src={LineGreen} alt=""></img>
         <span className="contact-title">Got a project in mind?</span>
         <span className="contact-subtitle">Feel free to reach me:</span>
         <a className="email" href="mailto:gabriela.co.design@gmail.com">
