@@ -9,20 +9,11 @@ module.exports = {
   entry: "./src/index.js",
   devtool: "cheap-module-source-map",
   output: {
-    path: path.join(__dirname, "public"),
-    filename: "bundle.js",
-    publicPath: publicPath,
-    sourceMapFilename: "[name].map"
+    path: path.join(__dirname, "docs"),
+    filename: "bundle.js"
   },
   devServer: {
-    port: 4000,
-    host: "localhost",
-    historyApiFallback: true,
-    noInfo: false,
-    stats: "minimal",
-    publicPath: publicPath,
-    contentBase: path.join(__dirname, publicPath),
-    hot: true
+    port: 4000
   },
   module: {
     rules: [
@@ -42,8 +33,8 @@ module.exports = {
         use: { loader: "html-loader" }
       },
       {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"]
+        test: /\.(png|svg|jpg|gif|ico)$/,
+        use: ['file-loader?name=[name].[ext]'] 
       },
       {
         test: /\.module\.s(a|c)ss$/,
@@ -81,9 +72,10 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/index.html",
-      filename: "./src/index.html"
+    new HtmlWebpackPlugin({  
+      filename: 'index.html',
+      template: 'src/index.html',
+      hash: true
     }),
     new MiniCssExtractPlugin({
       filename: isDevelopment ? "[name].css" : "[name].[hash].css",
