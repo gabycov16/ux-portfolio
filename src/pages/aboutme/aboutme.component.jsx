@@ -5,10 +5,10 @@ import "./aboutme.styles.scss";
 import Header from "../../components/header/header.component";
 import Portrait from "../../assets/moi.jpg";
 import Accenture from "../../assets/97-975298_image-result-for-accenture-logo-accenture-logo-lgbt.png";
-import Anahuac from "../../assets/1200px-Logo_Universidad_Anáhuac.svg.png";
+import Anahuac from "../../assets/1200px-Logo_Universidad_Anahuac.svg.png";
 import Acomer from "../../assets/imagotiponaranjacool.svg";
 import Cefim from "../../assets/LOGO-VERTICAL-2009p.jpg";
-import Idf from "../../assets/idf.jpeg";
+import Idf from "../../assets/idf.jpg";
 import LineGreen from "../../assets/line.svg";
 
 const AboutMePage = () => (
@@ -16,7 +16,7 @@ const AboutMePage = () => (
     <div className="homepage">
       <Header />
       <div className="bio">
-        <img src={Portrait} className="portrait"></img>
+        <img src={Portrait} className="portrait"  alt=""></img>
         <p className="text">
           Hi there!, I'm{" "}
           <a href="/" className="name">
@@ -76,7 +76,7 @@ const AboutMePage = () => (
 
       <p className="section-title">WORK</p>
       <div className="image-text">
-        <img src={Accenture}></img>
+        <img src={Accenture} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Accenture</p>
           <p className="subtitle">
@@ -85,7 +85,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Acomer}></img>
+        <img src={Acomer}  alt=""></img>
         <div className="text-wrapper">
           <p className="title">A comer!</p>
           <p className="subtitle">Graphic designer · 2016 - 2019</p>
@@ -94,7 +94,7 @@ const AboutMePage = () => (
 
       <p className="section-title">VOLUNTEERING</p>
       <div className="image-text">
-        <img src={Cefim}></img>
+        <img src={Cefim} alt=""></img>
         <div className="text-wrapper">
           <p className="title">CEFIM</p>
           <p className="subtitle">Graphic designer · 2017 - 2018</p>
@@ -102,7 +102,7 @@ const AboutMePage = () => (
       </div>
       <p className="section-title">CERTIFICATIONS</p>
       <div className="image-text">
-        <img src={Idf}></img>
+        <img src={Idf} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">Become a UX Designer from Scratch · 2020</p>
@@ -112,7 +112,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Idf}></img>
+        <img src={Idf}  alt=""></img>
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">Conducting Usability Testing · 2020</p>
@@ -122,7 +122,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Idf}></img>
+        <img src={Idf} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">
@@ -134,7 +134,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Idf}></img>
+        <img src={Idf} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">Mobile User Experience (UX) Design · 2020</p>
@@ -142,7 +142,7 @@ const AboutMePage = () => (
       </div>
       <p className="section-title">EDUCATION</p>
       <div className="image-text">
-        <img src={Anahuac}></img>
+        <img src={Anahuac} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Universidad Anáhuac México Norte</p>
           <p className="subtitle">
@@ -151,7 +151,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="contact">
-        <img src={LineGreen}></img>
+        <img src={LineGreen} alt=""></img>
         <span className="contact-title">Got a project in mind?</span>
         <span className="contact-subtitle">Feel free to reach me:</span>
         <a className="email" href="mailto:gabriela.co.design@gmail.com">

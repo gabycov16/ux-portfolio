@@ -34,7 +34,7 @@ const Mixup = props => (
       <div className="body">
         <p className="title-name">Mixup:</p>
         <p className="title-alternative">Usability Testing · UX Design</p>
-        <img src={Banner} className="banner"></img>
+        <img src={Banner} className="banner" alt=""></img>
         <p className="section-title">Overview</p>
         <p className="text-e">
           Not so long ago Mixup was a high-ranking music and technology
@@ -53,7 +53,7 @@ const Mixup = props => (
           smoothly as possible.
         </p>
         <p className="section-title">Design Process</p>
-        <img src={DesignProcess} className="design-process"></img>
+        <img src={DesignProcess} className="design-process" alt=""></img>
         <p className="section-title-a">Empathise</p>
         <p className="text-e">
           To undertake this project I first walked in the shoes of people who
@@ -65,7 +65,7 @@ const Mixup = props => (
         </p>
 
         <p className="section-title">Persona</p>
-        <img src={Persona} className="persona"></img>
+        <img src={Persona} className="persona" alt=""></img>
         <p className="section-title">Customer Journey</p>
         <img
           src={CustomerJourney}
@@ -94,19 +94,19 @@ const Mixup = props => (
 
         <p className="text-e">Finding your favourite music genre was:</p>
         <div className="stars">
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={StarVoid} className="star"></img>
-          <img src={StarVoid} className="star"></img>
-          <img src={StarVoid} className="star"></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={StarVoid} className="star" alt=""></img>
+          <img src={StarVoid} className="star" alt=""></img>
+          <img src={StarVoid} className="star" alt=""></img>
         </div>
         <p className="text-e">How easy was it to navigate the website?</p>
         <div className="stars">
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={StarVoid} className="star"></img>
-          <img src={StarVoid} className="star"></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={StarVoid} className="star" alt=""></img>
+          <img src={StarVoid} className="star" alt=""></img>
         </div>
         <p className="text-e">
           If you had to keep one thing and delete the rest, what would it be?
@@ -192,14 +192,14 @@ const Mixup = props => (
           </a>
           of guessing where the desired product is.
         </p>
-        <img src={ProblemSpots} className="persona"></img>
+        <img src={ProblemSpots} className="persona" alt=""></img>
         <p className="section-title">2x2 Analysis</p>
 
         <p className="text-e">
           After analysing the possible tasks in the customer journey I narrowed
           what was more important for the users and for Mixup to improve.
         </p>
-        <img src={Matrix2x2} className="persona"></img>
+        <img src={Matrix2x2} className="persona" alt=""></img>
         <ul className="text-e">
           <li>
             Redefine the
@@ -249,14 +249,14 @@ const Mixup = props => (
 
         <p className="section-title">High-Fidelity Prototype</p>
         <div className="image-text-horizontal">
-          <img src={MagicWand} className="magic-wand"></img>
+          <img src={MagicWand} className="magic-wand" alt=""></img>
           <p className="text-i">
             Once I had the page structure and the content organisation, I made
             some close-up magic to turn my scribbles into something lovely to
             the eye…
           </p>
         </div>
-        <img src={Blueish} className="persona"></img>
+        <img src={Blueish} className="persona" alt=""></img>
         <p className="section-title">Retrospectives</p>
         <p className="text-e">
           The path through this journey has been a vital and educational
@@ -311,7 +311,7 @@ const Mixup = props => (
         </p>
         <p className="section-title-a">Results</p>
         <p className="section-title">Success Rate Before & After Redesigning</p>
-        <img src={SuccessRateAfter} className="persona"></img>
+        <img src={SuccessRateAfter} className="persona" alt=""></img>
         <p className="section-title">Home Page</p>
         <div className="personas">
           <div className="cont">

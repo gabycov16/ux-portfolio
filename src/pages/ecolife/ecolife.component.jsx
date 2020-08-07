@@ -20,8 +20,6 @@ import Tutoriales from "../../assets/ecolife/tutoriales.png";
 import EcoWisdom from "../../assets/ecolife/ecowisdom.png";
 import Settings from "../../assets/ecolife/settings.png";
 import Tutorial from "../../assets/ecolife/tutorial.png";
-import { Route, Switch, Link, Redirect, BrowserRouter as Router } from "react-router-dom";
-
 
 const Ecolife = props => (
   <div className="king-container">
@@ -30,7 +28,7 @@ const Ecolife = props => (
       <div className="body">
         <p className="title-name">Ecolife:</p>
         <p className="title-alternative">UX Redesign</p>
-        <img src={HorizontalImage} className="banner"></img>
+        <img src={HorizontalImage} className="banner" alt=""></img>
         <p className="text-app-description">
           <a href="/" className="emphasis">
             {"Ecolife "}
@@ -66,7 +64,7 @@ const Ecolife = props => (
           </p>
         </div>
         <p className="section-title">Design Process</p>
-        <img src={DesignProcess} className="design-process"></img>
+        <img src={DesignProcess} className="design-process" alt=""></img>
         <p className="section-title-a">Understand</p>
         <div className="text-columns-right">
           <p className="text-e">
@@ -216,7 +214,7 @@ const Ecolife = props => (
         </p>
         <img src={CardSort} className="card-sort" alt="card sorting"></img>
         <p className="section-title">Low-Fidelity Prototype</p>
-        <img src={LowFi} className="card-sort"></img>
+        <img src={LowFi} className="card-sort" alt=""></img>
 
         <p className="text-e">
           I started to draw what I had in my mind in order to shape the ideas we
@@ -225,7 +223,7 @@ const Ecolife = props => (
         </p>
         <p className="section-title">High-Fidelity Prototype</p>
         <div className="image-text-horizontal">
-          <img src={MagicWand} className="magic-wand"></img>
+          <img src={MagicWand} className="magic-wand" alt=""></img>
           <p className="text-i">
             Once we arrived to the desired mobile design patterns and a neat
             information architecture I worked on the high-fidelity prototype to
@@ -233,7 +231,7 @@ const Ecolife = props => (
           </p>
         </div>
 
-        <img src={Greenie} className="card-sort"></img>
+        <img src={Greenie} className="card-sort" alt=""></img>
 
         <p className="section-title-a">Test</p>
         <p className="text-e">
@@ -260,7 +258,7 @@ const Ecolife = props => (
             not click it instead of the "Go back" button by mistake.
           </li>
         </ul>
-        <img src={Mejoras} className="card-sort"></img>
+        <img src={Mejoras} className="card-sort" alt=""></img>
         <p className="text-e">
           After applying these changes I tested again with new users and these
           were the insights:
@@ -283,11 +281,11 @@ const Ecolife = props => (
           On a scale from 1 to 5, how many stars would you give the aesthetics?
         </p>
         <div className="stars">
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
-          <img src={Star} className="star"></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
+          <img src={Star} className="star" alt=""></img>
         </div>
         <p className="text-e">
           What one thing do you think makes Ecolife outstand?
@@ -301,7 +299,7 @@ const Ecolife = props => (
         </p>
         <p className="section-title-a">Results</p>
         <p className="section-title">Missions</p>
-        <img src={Misiones} className="card-sort"></img>
+        <img src={Misiones} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
             I included directions for when a user is new they know they have to
@@ -317,7 +315,7 @@ const Ecolife = props => (
           </li>
         </ul>
         <p className="section-title">Achievements</p>
-        <img src={Logros} className="card-sort"></img>
+        <img src={Logros} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
             The Achievements section includes 3 tabs: Unlocked, Badges and
@@ -330,13 +328,13 @@ const Ecolife = props => (
           </li>
         </ul>
         <p className="section-title">Tutorials</p>
-        <img src={Tutoriales} className="card-sort"></img>
+        <img src={Tutoriales} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>This is a feature people asked for.</li>
           <li>They are going to be unlocked as they complete missions.</li>
         </ul>
         <p className="section-title">EcoWisdom</p>
-        <img src={EcoWisdom} className="card-sort"></img>
+        <img src={EcoWisdom} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
             For the EcoWisdom section I wanted to keep it simple: Image, Title
@@ -349,9 +347,9 @@ const Ecolife = props => (
           <li>And decided to use the whole screen to present the article.</li>
         </ul>
         <p className="section-title">Settings</p>
-        <img src={Settings} className="card-sort"></img>
+        <img src={Settings} className="card-sort" alt=""></img>
         <p className="section-title">Tutorial</p>
-        <img src={Tutorial} className="card-sort"></img>
+        <img src={Tutorial} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>The objective here was to make clear the path for the users.</li>
           <li>

@@ -7,7 +7,7 @@ import "./header.styles.scss";
 const Header = (props) => (
   <div className="header-container">
     <div className="image">
-    <img src={Gab} className="logo" onClick={() => props.history.push('/')}></img>
+    <img src={Gab} className="logo" onClick={() => props.history.push('/')} alt=""></img>
      
     </div>
     <div className="menu">
