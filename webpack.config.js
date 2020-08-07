@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
-const publicPath = "/dist/build/";
+const publicPath = "/";
 const isDevelopment = process.env.NODE_ENV === "development";
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
@@ -15,7 +15,7 @@ module.exports = {
     sourceMapFilename: "[name].map"
   },
   devServer: {
-    port: 3000,
+    port: 4000,
     host: "localhost",
     historyApiFallback: true,
     noInfo: false,
