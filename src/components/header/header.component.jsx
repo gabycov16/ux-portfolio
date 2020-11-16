@@ -1,26 +1,39 @@
 import React from "react";
-import {withRouter } from "react-router-dom";
-import Gab from '../../assets/logo.svg'
+import { withRouter } from "react-router-dom";
+import Gab from "../../assets/logo.svg";
 
 import "./header.styles.scss";
 
-const Header = (props) => (
+const Header = props => (
   <div className="header-container">
     <div className="image">
-    <img src={Gab} className="logo" onClick={() => props.history.push('/')} alt=""></img>
-     
+      <img
+        src={Gab}
+        className="logo"
+        onClick={() => props.history.push("/")}
+        alt=""
+      ></img>
     </div>
     <div className="menu">
       <div className="tabs">
-      <button onClick={() => props.history.push('/')} className="portfolio">HOME</button>
+        <button onClick={() => props.history.push("/")} className="portfolio">
+          HOME
+        </button>
       </div>
       <div className="tabs">
-        <button onClick={() => props.history.push('/about-me')} className="aboutme">ABOUT ME</button>
+        <button
+          onClick={() => props.history.push("/about-me")}
+          className="aboutme"
+        >
+          ABOUT ME
+        </button>
       </div>
       <div className="tabs">
-      <button onClick={() => props.history.push('/contact')} className="portfolio">CONTACT</button>
+        <a href="mailto:gabriela.co.design@gmail.com" class="portfolio">
+          {"CONTACT"}
+        </a>
+        
       </div>
-      
     </div>
   </div>
 );

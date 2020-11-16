@@ -36,7 +36,6 @@ $scrollLength: 100vh;
       // achieves desired positioning within the viewport
       // relative to the top of the viewport once `sticky` takes over, or always if `fixed` fallback is used
       top: calc(100vh - 5rem);
-
       // basic styling
       display: inline-block;
       text-decoration: none;
@@ -55,7 +54,6 @@ $scrollLength: 100vh;
       &:focus {
         transform: scale(1.1);
       }
-
       &:focus {
         outline: none;
       }
