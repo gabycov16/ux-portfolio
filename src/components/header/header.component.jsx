@@ -15,11 +15,12 @@ const Header = (props) => (
       <button onClick={() => props.history.push('/')} className="portfolio">HOME</button>
       </div>
       <div className="tabs">
-      <button onClick={() => props.history.push('/ux-portfolio')} className="portfolio">UX PORTFOLIO</button>
-      </div>
-      <div className="tabs">
         <button onClick={() => props.history.push('/about-me')} className="aboutme">ABOUT ME</button>
       </div>
+      <div className="tabs">
+      <button onClick={() => props.history.push('/contact')} className="portfolio">CONTACT</button>
+      </div>
+      
     </div>
   </div>
 );

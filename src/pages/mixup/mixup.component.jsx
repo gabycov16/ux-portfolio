@@ -1,7 +1,7 @@
 import React from "react";
 import "./mixup.styles.scss";
 import Header from "../../components/header/header.component";
-import Banner from "../../assets/mixup/banner3.png";
+import Banner from "../../assets/mixup/banner4.png";
 import DesignProcess from "../../assets/design-process-mixup.png";
 import Persona from "../../assets/persona-mixup.png";
 import CustomerJourney from "../../assets/customer-journey.png";

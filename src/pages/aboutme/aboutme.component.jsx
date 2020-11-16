@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 import "./aboutme.styles.scss";
 import Header from "../../components/header/header.component";
-import Portrait from "../../assets/moi.jpg";
+import Portrait from "../../assets/profile-pic (31).png";
 import Accenture from "../../assets/97-975298_image-result-for-accenture-logo-accenture-logo-lgbt.png";
 import Anahuac from "../../assets/1200px-Logo_Universidad_Anahuac.svg.png";
 import Acomer from "../../assets/imagotiponaranjacool.svg";
@@ -15,7 +15,7 @@ const AboutMePage = () => (
     <div className="homepage">
       <Header />
       <div className="bio">
-        <img src={Portrait} className="portrait"  alt=""></img>
+        <img src={Portrait} className="portrait" alt=""></img>
         <p className="text">
           Hi there!, I'm{" "}
           <a href="/" className="name">
@@ -41,18 +41,16 @@ const AboutMePage = () => (
           Aside from soothing the life of people, I live to write poetry and
           make social & emotional connections all around the world.
         </p>
+        <p className="text">This website is coded by me.</p>
       </div>
       <div className="buttons">
         <form
-          action="https://www.linkedin.com/in/gabriela-colín-b80781117"
+          action="https://www.linkedin.com/in/gabriela-co"
           method="get"
           target="_blank"
         >
           <button type="submit" className="button-b">
-            <a
-              href="https://www.linkedin.com/in/gabriela-colín-b80781117"
-              class="icon"
-            >
+            <a href="https://www.linkedin.com/in/gabriela-co" class="icon">
               {" "}
             </a>
             LinkedIn
@@ -84,7 +82,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Acomer}  alt=""></img>
+        <img src={Acomer} alt=""></img>
         <div className="text-wrapper">
           <p className="title">A comer!</p>
           <p className="subtitle">Graphic designer · 2016 - 2019</p>
@@ -111,7 +109,7 @@ const AboutMePage = () => (
         </div>
       </div>
       <div className="image-text">
-        <img src={Idf}  alt=""></img>
+        <img src={Idf} alt=""></img>
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">Conducting Usability Testing · 2020</p>
@@ -137,8 +135,34 @@ const AboutMePage = () => (
         <div className="text-wrapper">
           <p className="title">Interaction Design Foundation</p>
           <p className="subtitle">Mobile User Experience (UX) Design · 2020</p>
+          <a href="https://www.interaction-design.org/gabriela-colin/certificate/course/b0a6afc1-995a-4cbc-a0ef-e979f5c0325e">
+            Course certificate
+          </a>
         </div>
       </div>
+      <div className="image-text">
+        <img src={Idf} alt=""></img>
+        <div className="text-wrapper">
+          <p className="title">Interaction Design Foundation</p>
+          <p className="subtitle">Information Visualization · 2020</p>
+          <a href="https://www.interaction-design.org/gabriela-colin/certificate/course/41a3b4dd-b762-4b3d-a8f9-2aef5eb58d54">
+            Course certificate
+          </a>
+        </div>
+      </div>
+      <div className="image-text">
+        <img src={Idf} alt=""></img>
+        <div className="text-wrapper">
+          <p className="title">Interaction Design Foundation</p>
+          <p className="subtitle">
+            The Ultimate Guide to Visual Perception and Design · 2020
+          </p>
+          <a href="https://www.interaction-design.org/gabriela-colin/certificate/course/ce841f5b-9ff7-46e1-937a-059995685386">
+            Course certificate
+          </a>
+        </div>
+      </div>
+
       <p className="section-title">EDUCATION</p>
       <div className="image-text">
         <img src={Anahuac} alt=""></img>
