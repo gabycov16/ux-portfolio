@@ -14,6 +14,40 @@ $scrollLength: 100vh;
     transition: all 0.8s ease;
     overflow: auto;
 
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.8);
+      .row {
+        min-width: -webkit-fill-available;
+        align-items: center;
+        .image {
+          width: 100px;
+        }
+        .tab {
+          font-family: "Raleway", sans-serif;
+          font-weight: 500;
+          color: #23aa8f;
+          text-decoration: none;
+          background-color: transparent;
+          font-size: 18px;
+          border: none;
+          cursor: pointer;
+          &:focus {
+            outline: transparent;
+          }
+          &:active {
+            outline: transparent;
+          }
+        }
+        :visited {
+          text-decoration: underline;
+          color: #86d780;
+        }
+        :hover {
+          color: #86d780;
+        }
+      }
+    }
+
     .back-to-top-wrapper {
       // uncomment to visualize "track"
       // outline: 1px solid red;
@@ -383,6 +417,16 @@ $scrollLength: 100vh;
 @media screen and (min-device-width: 768px) and (max-device-width: 820px) {
   .king-container {
     .homepage {
+      .navbar {
+        .row {
+          .image {
+            width: 80px;
+          }
+          .tab {
+            font-size: 14px;
+          }
+        }
+      }
       .body {
         .title-surname {
           font-size: 40px;
@@ -408,6 +452,16 @@ $scrollLength: 100vh;
 @media screen and (min-device-width: 600px) and (max-device-width: 768px) {
   .king-container {
     .homepage {
+      .image {
+        width: 70px;
+      }
+      .navbar {
+        .row {
+          .tab {
+            font-size: 14px;
+          }
+        }
+      }
       .body {
         .title-surname {
           font-size: 35px;
@@ -433,6 +487,16 @@ $scrollLength: 100vh;
 @media screen and (min-device-width: 450px) and (max-device-width: 600px) {
   .king-container {
     .homepage {
+      .navbar {
+        .row {
+          .image {
+            width: 70px;
+          }
+          .tab {
+            font-size: 12px;
+          }
+        }
+      }
       .body {
         padding: 40px 0 0;
         .title-surname {
@@ -460,6 +524,16 @@ $scrollLength: 100vh;
 @media screen and (min-device-width: 320px) and (max-device-width: 450px) {
   .king-container {
     .homepage {
+      .navbar {
+        .row {
+          .image {
+            width: 0; 
+          }
+          .tab {
+            font-size: 12px;
+          }
+        }
+      }
       .body {
         padding: 40px 0 0;
         .title-surname {

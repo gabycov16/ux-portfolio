@@ -6,18 +6,20 @@ import "./header.styles.scss";
 
 const Header = props => (
   <div className="header-container">
-    <div className="image">
-      <img
-        src={Gab}
-        className="logo"
-        onClick={() => props.history.push("/")}
-        alt=""
-      ></img>
-    </div>
+    <img
+      src={Gab}
+      className="logo"
+      onClick={() => props.history.push("/")}
+      alt=""
+    ></img>
+
     <div className="menu">
       <div className="tabs">
-        <button onClick={() => props.history.push("/")} className="portfolio">
-          HOME
+        <button
+          onClick={() => props.history.push("/ux-portfolio")}
+          className="portfolio"
+        >
+          UX PORTFOLIO
         </button>
       </div>
       <div className="tabs">
@@ -32,7 +34,6 @@ const Header = props => (
         <a href="mailto:gabriela.co.design@gmail.com" class="portfolio">
           {"CONTACT"}
         </a>
-        
       </div>
     </div>
   </div>
