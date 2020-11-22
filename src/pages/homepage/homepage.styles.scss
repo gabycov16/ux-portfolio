@@ -98,7 +98,6 @@ $scrollLength: 100vh;
       display: flex;
       flex-direction: column;
       padding: 40px 50px;
-
       .arrowdown {
         margin-top: 20px;
         height: 24px;
@@ -261,45 +260,6 @@ $scrollLength: 100vh;
         }
       }
     }
-    .buttons-homepage {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      .button-a {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 24px;
-        color: #007882;
-        width: 250px;
-        height: 50px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-        border: 1px solid #007882;
-        background-color: transparent;
-        cursor: pointer;
-        margin: 20px;
-        &:focus {
-          outline: transparent;
-        }
-        &:hover {
-          cursor: pointer;
-          border: 1px solid #86d780;
-          color: #86d780;
-        }
-        .icon {
-          margin: 0;
-          padding: 0;
-          display: block;
-          align-self: center;
-          width: 20px;
-          height: 20px;
-          background: url(../../assets/linkedin.svg);
-          background-size: 20px 20px;
-        }
-      }
-    }
   }
   .overlay {
     position: absolute;
@@ -338,31 +298,6 @@ $scrollLength: 100vh;
   }
 }
 
-@media screen and (min-device-width: 1200px) {
-  .king-container {
-    .homepage {
-      .buttons-homepage {
-        .button-a {
-          height: 60px;
-          width: -moz-fit-content;
-          width: 250px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-device-width: 1024px) and (max-device-width: 1200px) {
-  .king-container {
-    .homepage {
-      .buttons-homepage {
-        .button-a {
-          width: 280px;
-        }
-      }
-    }
-  }
-}
 
 @media screen and (min-device-width: 920px) and (max-device-width: 1024px) {
   .king-container {
@@ -378,12 +313,6 @@ $scrollLength: 100vh;
           .text {
             font-size: 25px;
           }
-        }
-      }
-      .buttons-homepage {
-        padding: 0 200px;
-        .button-a {
-          font-size: 20px;
         }
       }
     }
@@ -403,12 +332,6 @@ $scrollLength: 100vh;
           .text {
             font-size: 25px;
           }
-        }
-      }
-      .buttons-homepage {
-        padding: 0 200px;
-        .button-a {
-          font-size: 20px;
         }
       }
     }
@@ -440,12 +363,6 @@ $scrollLength: 100vh;
           }
         }
       }
-      .buttons-homepage {
-        padding: 0 200px;
-        .button-a {
-          font-size: 20px;
-        }
-      }
     }
   }
 }
@@ -473,12 +390,6 @@ $scrollLength: 100vh;
           .text {
             font-size: 20px;
           }
-        }
-      }
-      .buttons-homepage {
-        padding: 0 200px;
-        .button-a {
-          font-size: 20px;
         }
       }
     }
@@ -512,12 +423,6 @@ $scrollLength: 100vh;
           }
         }
       }
-      .buttons-homepage {
-        .button-a {
-          font-size: 20px;
-          margin: 0;
-        }
-      }
     }
   }
 }
@@ -548,13 +453,6 @@ $scrollLength: 100vh;
             font-size: 16px;
             text-align: left;
           }
-        }
-      }
-      .buttons-homepage {
-        .button-a {
-          font-size: 16px;
-          margin: 0;
-          width: 40%;
         }
       }
     }

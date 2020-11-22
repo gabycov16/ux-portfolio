@@ -43,6 +43,50 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0 300px;
+    .button-a {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #007882;
+      width: 200px;
+      height: 50px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #007882;
+      background-color: transparent;
+      cursor: pointer;
+      margin: 20px;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #86d780;
+        color: #86d780;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/linkedin.svg);
+        background-size: 20px 20px;
+      }
+    }
     .button-b {
       display: flex;
       justify-content: space-evenly;
@@ -207,8 +251,15 @@
 }
 @media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
   .homepage {
+    .buttons {
+      padding: 0 200px;
+      .button-a {
+        width: 180px;
+        font-size: 18px;
+      }
+    }
     .bio {
-      padding: 0px 200px;
+      padding: 0 200px;
       .portrait {
         margin-bottom: 50px;
       }
@@ -233,6 +284,11 @@
       }
     }
     .buttons {
+      padding: 0 120px;
+      .button-a {
+        width: 180px;
+        font-size: 18px;
+      }
       .button-b {
         font-size: 18px;
         width: 150px;
@@ -262,6 +318,12 @@
       }
     }
     .buttons {
+      padding: 0 100px;
+      align-items: center;
+      .button-a {
+        width: 180px;
+        font-size: 18px;
+      }
       form {
         display: flex;
         height: 50px;
@@ -284,7 +346,7 @@
       padding: 0 100px 40px;
       //padding-right: 0;
       //margin-right: 0 !important;
-      //margin-left: 100px; 
+      //margin-left: 100px;
       display: flex;
       align-items: center;
       img {
@@ -323,6 +385,7 @@
 
 @media screen and (min-device-width: 500px) and (max-device-width: 600px) {
   .homepage {
+    
     .pad-container {
       padding: 0 100px;
       margin-top: 30px;
@@ -340,6 +403,10 @@
       flex-wrap: wrap;
       align-content: space-evenly;
       height: 130px;
+      .button-a {
+        width: 150px;
+        font-size: 18px;
+      }
       form {
         height: 50px;
         width: 260px;
@@ -418,6 +485,10 @@
       flex-wrap: wrap;
       align-content: space-evenly;
       height: 130px;
+      .button-a {
+        width: 150px;
+        font-size: 15px;
+      }
       form {
         width: 260px;
         display: flex;
@@ -496,6 +567,10 @@
       flex-wrap: wrap;
       align-content: space-evenly;
       height: 150px;
+      .button-a {
+        width: 150px;
+        font-size: 18px;
+      }
       form {
         height: 50px;
         width: 260px;

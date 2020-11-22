@@ -1,12 +1,7 @@
 import React from "react";
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./homepage.styles.scss";
 import Header from "../../components/header/header.component";
-
-import Gab from "../../assets/logo.svg";
-import Container from "react-bootstrap/Container";
-import { Row, Col } from "react-bootstrap";
-import { Navbar, Nav, Button } from "react-bootstrap";
 
 const HomePage = props => (
   <div className="king-container">
@@ -49,7 +44,7 @@ const HomePage = props => (
         </form>
         <button
           onClick={() => props.history.push("/ux-portfolio")}
-          className="button-c"
+          className="button-a"
         >
           UX Portfolio
         </button>
