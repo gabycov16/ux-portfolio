@@ -70,8 +70,7 @@ const AboutMePage = () => (
           </button>
         </form>
       </div>
-
-      <p className="section-title">WORK</p>
+      <p className="section-title pad-container">WORK</p>
       <div className="image-text">
         <img src={Accenture} alt=""></img>
         <div className="text-wrapper">
@@ -89,7 +88,7 @@ const AboutMePage = () => (
         </div>
       </div>
 
-      <p className="section-title">VOLUNTEERING</p>
+      <p className="section-title pad-container">VOLUNTEERING</p>
       <div className="image-text">
         <img src={Cefim} alt=""></img>
         <div className="text-wrapper">
@@ -97,7 +96,7 @@ const AboutMePage = () => (
           <p className="subtitle">Graphic designer · 2017 - 2018</p>
         </div>
       </div>
-      <p className="section-title">CERTIFICATIONS</p>
+      <p className="section-title pad-container">CERTIFICATIONS</p>
       <div className="image-text">
         <img src={Idf} alt=""></img>
         <div className="text-wrapper">
@@ -163,7 +162,7 @@ const AboutMePage = () => (
         </div>
       </div>
 
-      <p className="section-title">EDUCATION</p>
+      <p className="section-title pad-container">EDUCATION</p>
       <div className="image-text">
         <img src={Anahuac} alt=""></img>
         <div className="text-wrapper">
