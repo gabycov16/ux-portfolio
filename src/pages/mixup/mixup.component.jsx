@@ -35,7 +35,7 @@ const Mixup = props => (
         <p className="title-name">Mixup:</p>
         <p className="title-alternative">Usability Testing · UX Design</p>
         <img src={Banner} className="banner" alt=""></img>
-        <p className="section-title">Overview</p>
+        <p className="section-title pad-container">Overview</p>
         <p className="text-e">
           Not so long ago Mixup was a high-ranking music and technology
           enterprise. Everyday people relied first on Mixup to buy their
@@ -52,7 +52,7 @@ const Mixup = props => (
           give a possible solution for users to go through these transitions as
           smoothly as possible.
         </p>
-        <p className="section-title">Design Process</p>
+        <p className="section-title pad-container">Design Process</p>
         <img src={DesignProcess} className="design-process" alt=""></img>
         <p className="section-title-a">Empathise</p>
         <p className="text-e">
@@ -64,9 +64,9 @@ const Mixup = props => (
           customer journey.
         </p>
 
-        <p className="section-title">Persona</p>
+        <p className="section-title pad-container">Persona</p>
         <img src={Persona} className="persona" alt=""></img>
-        <p className="section-title">Customer Journey</p>
+        <p className="section-title pad-container">Customer Journey</p>
         <img
           src={CustomerJourney}
           className="persona"
@@ -90,7 +90,7 @@ const Mixup = props => (
         >
           <p>It looks weird, I don’t know if I can trust it.</p>
         </div>
-        <p className="section-title">Post-Test Questionnair Results</p>
+        <p className="section-title pad-container">Post-Test Questionnair Results</p>
 
         <p className="text-e">Finding your favourite music genre was:</p>
         <div className="stars">
@@ -141,7 +141,7 @@ const Mixup = props => (
         >
           <p>“There are too many options”</p>
         </div>
-        <p className="section-title">Errors & confusions</p>
+        <p className="section-title pad-container">Errors & confusions</p>
         <div className="text-e">
           <ul className="">
             <li>5/7 of users didn’t find their desired music genre.</li>
@@ -152,7 +152,7 @@ const Mixup = props => (
             </li>
           </ul>
         </div>
-        <p className="section-title">Success Rate</p>
+        <p className="section-title pad-container">Success Rate</p>
         <p className="subtitle2">How many users finished the task?</p>
         <img src={SuccessRate} className="persona" alt="Mixup persona"></img>
 
@@ -168,7 +168,7 @@ const Mixup = props => (
           them, it was time to delineate the user’s needs, their problems and
           the insights.
         </p>
-        <p className="section-title">Main Challenges</p>
+        <p className="section-title pad-container">Main Challenges</p>
         <p className="text-e">
           The webpage is
           <a href="/" className="emphasis">
@@ -193,7 +193,7 @@ const Mixup = props => (
           of guessing where the desired product is.
         </p>
         <img src={ProblemSpots} className="persona" alt=""></img>
-        <p className="section-title">2x2 Analysis</p>
+        <p className="section-title pad-container">2x2 Analysis</p>
 
         <p className="text-e">
           After analysing the possible tasks in the customer journey I narrowed
@@ -247,7 +247,7 @@ const Mixup = props => (
           to dive into their product search without trouble.
         </p>
 
-        <p className="section-title">High-Fidelity Prototype</p>
+        <p className="section-title pad-container">High-Fidelity Prototype</p>
         <div className="image-text-horizontal">
           <img src={MagicWand} className="magic-wand" alt=""></img>
           <p className="text-i">
@@ -257,7 +257,7 @@ const Mixup = props => (
           </p>
         </div>
         <img src={Blueish} className="persona" alt=""></img>
-        <p className="section-title">Retrospectives</p>
+        <p className="section-title pad-container">Retrospectives</p>
         <p className="text-e">
           The path through this journey has been a vital and educational
           experience so far.
@@ -310,9 +310,9 @@ const Mixup = props => (
           For this reason why I decided to test it on 7 more users.
         </p>
         <p className="section-title-a">Results</p>
-        <p className="section-title">Success Rate Before & After Redesigning</p>
+        <p className="section-title pad-container">Success Rate Before & After Redesigning</p>
         <img src={SuccessRateAfter} className="persona" alt=""></img>
-        <p className="section-title">Home Page</p>
+        <p className="section-title pad-container">Home Page</p>
         <div className="personas">
           <div className="cont">
             BEFORE
@@ -382,7 +382,7 @@ const Mixup = props => (
             </li>
           </ul>
         </p>
-        <p className="section-title">Music Genres' Menu</p>
+        <p className="section-title pad-container">Music Genres' Menu</p>
         <div className="personas">
           <div className="cont">
             BEFORE
@@ -418,7 +418,7 @@ const Mixup = props => (
             </li>
           </ul>
         </p>
-        <p className="section-title">CDs & Vinyls</p>
+        <p className="section-title pad-container">CDs & Vinyls</p>
         <div className="personas">
           <div className="cont">
             BEFORE
@@ -480,7 +480,7 @@ const Mixup = props => (
             </li>
           </ul>
         </p>
-        <p className="section-title">Sign In</p>
+        <p className="section-title pad-container">Sign In</p>
         <div className="personas">
           <div className="cont">
             BEFORE
@@ -511,7 +511,7 @@ const Mixup = props => (
           to sign in and register. This way when they are finished the modal
           would close and the current page wouldn’t change.
         </p>
-        <p className="section-title">Register</p>
+        <p className="section-title pad-container">Register</p>
         <div className="personas">
           <div className="cont">
             BEFORE
@@ -534,7 +534,7 @@ const Mixup = props => (
           Filling forms can be tedious, reducing the steps to a couple per
           screen helped to be undemanding.
         </p>
-        <p className="section-title">Checkout</p>
+        <p className="section-title pad-container">Checkout</p>
         <div className="personas">
           <div className="cont">
             BEFORE

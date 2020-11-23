@@ -1,6 +1,7 @@
 import React from "react";
-import { withRouter} from 'react-router-dom';
+import { withRouter } from "react-router-dom";
 import "./ecolife.styles.scss";
+import { Container, Row, Col } from "react-bootstrap";
 import Header from "../../components/header/header.component";
 import HorizontalImage from "../../assets/ecolife/banner.png";
 import DesignProcess from "../../assets/design-process-ecolife.png";
@@ -63,8 +64,13 @@ const Ecolife = props => (
             or where to begin.
           </p>
         </div>
-        <p className="section-title">Design Process</p>
-        <img src={DesignProcess} className="design-process" alt=""></img>
+
+        
+              <p className="section-title pad-container">Design Process</p>
+              <img src={DesignProcess} className="design-process" alt=""></img>
+              
+          
+
         <p className="section-title-a">Understand</p>
         <div className="text-columns-right">
           <p className="text-e">
@@ -76,7 +82,7 @@ const Ecolife = props => (
             goals, pain points and possible improvements in line to shine.
           </p>
         </div>
-        <p className="section-title">Semi-Structured Interviews</p>
+        <p className="section-title pad-container">Semi-Structured Interviews</p>
         <p className="text-e text-column-p">
           After I had the chance to talk with the app developer I wanted to have
           an in-depth understanding of the user’s perceptions, desirabilities
@@ -123,7 +129,7 @@ const Ecolife = props => (
           </p>
         </div>
 
-        <p className="section-title">Personas</p>
+        <p className="section-title pad-container">Personas</p>
         <p className="text-e">
           I found out there where 2 kinds of people who would be interested in
           using the app, therefore I created 2 personas.
@@ -132,7 +138,7 @@ const Ecolife = props => (
           <img src={Persona1} className="persona" alt="Ecolife persona"></img>
           <img src={Persona2} className="persona" alt="Ecolife persona"></img>
         </div>
-        <p className="section-title">Story Board</p>
+        <p className="section-title pad-container">Story Board</p>
         <p className="text-e">
           On this visual story I illustrated on a simple way the possible
           context where the Ecolife app could be used.
@@ -175,7 +181,7 @@ const Ecolife = props => (
         >
           <p className="quote">I want to know I’m making a change. </p>
         </div>
-        <p className="section-title">Main Challenges</p>
+        <p className="section-title pad-container">Main Challenges</p>
         <ul className="text-e">
           <li>
             Make the goals and the missions’ process
@@ -213,7 +219,7 @@ const Ecolife = props => (
           <br></br>
         </p>
         <img src={CardSort} className="card-sort" alt="card sorting"></img>
-        <p className="section-title">Low-Fidelity Prototype</p>
+        <p className="section-title pad-container">Low-Fidelity Prototype</p>
         <img src={LowFi} className="card-sort" alt=""></img>
 
         <p className="text-e">
@@ -221,7 +227,7 @@ const Ecolife = props => (
           got, reducing the product lifecycle complexity applying a user-centred
           design.
         </p>
-        <p className="section-title">High-Fidelity Prototype</p>
+        <p className="section-title pad-container">High-Fidelity Prototype</p>
         <div className="image-text-horizontal">
           <img src={MagicWand} className="magic-wand" alt=""></img>
           <p className="text-i">
@@ -245,7 +251,7 @@ const Ecolife = props => (
           <li>Thoughts and opinions.</li>
         </ul>
 
-        <p className="section-title">What changed after testing?</p>
+        <p className="section-title pad-container">What changed after testing?</p>
 
         <ul className="text-e">
           <li>I added a "Skip tutorial" button in the Tutorial section.</li>
@@ -263,7 +269,7 @@ const Ecolife = props => (
           After applying these changes I tested again with new users and these
           were the insights:
         </p>
-        <p className="section-title">Post-Test Questionnair Results</p>
+        <p className="section-title pad-container">Post-Test Questionnair Results</p>
 
         <p className="text-e">
           Why would you continue to use this app or what would stop you from
@@ -298,7 +304,7 @@ const Ecolife = props => (
           you".
         </p>
         <p className="section-title-a">Results</p>
-        <p className="section-title">Missions</p>
+        <p className="section-title  pad-container">Missions</p>
         <img src={Misiones} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
@@ -314,7 +320,7 @@ const Ecolife = props => (
             better than a graphic.
           </li>
         </ul>
-        <p className="section-title">Achievements</p>
+        <p className="section-title pad-container">Achievements</p>
         <img src={Logros} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
@@ -327,13 +333,13 @@ const Ecolife = props => (
             order to achieve the selected badge.
           </li>
         </ul>
-        <p className="section-title">Tutorials</p>
+        <p className="section-title pad-container">Tutorials</p>
         <img src={Tutoriales} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>This is a feature people asked for.</li>
           <li>They are going to be unlocked as they complete missions.</li>
         </ul>
-        <p className="section-title">EcoWisdom</p>
+        <p className="section-title pad-container">EcoWisdom</p>
         <img src={EcoWisdom} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>
@@ -346,9 +352,9 @@ const Ecolife = props => (
           </li>
           <li>And decided to use the whole screen to present the article.</li>
         </ul>
-        <p className="section-title">Settings</p>
+        <p className="section-title pad-container">Settings</p>
         <img src={Settings} className="card-sort" alt=""></img>
-        <p className="section-title">Tutorial</p>
+        <p className="section-title pad-container">Tutorial</p>
         <img src={Tutorial} className="card-sort" alt=""></img>
         <ul className="text-e">
           <li>The objective here was to make clear the path for the users.</li>
@@ -397,11 +403,11 @@ const Ecolife = props => (
           We live in the most exciting time, but also the scariest for dreamers.
           The eternal question is: How can we help life on Earth?
         </p>
-        <div style={{height: "3rem"}}></div>  
+        <div style={{ height: "3rem" }}></div>
       </div>
-      </div>
+    </div>
     <div className="overlay"></div>
   </div>
 );
 
-export default  withRouter(Ecolife);
+export default withRouter(Ecolife);
