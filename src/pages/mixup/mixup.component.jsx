@@ -84,13 +84,12 @@ const Mixup = props => (
             demographics).
           </li>
         </ul>
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
-          <p>It looks weird, I don’t know if I can trust it.</p>
+        <div className="quote">
+          <p>"It looks weird, I don’t know if I can trust it."</p>
         </div>
-        <p className="section-title pad-container">Post-Test Questionnair Results</p>
+        <p className="section-title pad-container">
+          Post-Test Questionnair Results
+        </p>
 
         <p className="text-e">Finding your favourite music genre was:</p>
         <div className="stars">
@@ -135,10 +134,7 @@ const Mixup = props => (
             <li>28% of users said “they would if it was more beautiful”.</li>
           </ul>
         </p>
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
+        <div className="quote">
           <p>“There are too many options”</p>
         </div>
         <p className="section-title pad-container">Errors & confusions</p>
@@ -156,10 +152,7 @@ const Mixup = props => (
         <p className="subtitle2">How many users finished the task?</p>
         <img src={SuccessRate} className="persona" alt="Mixup persona"></img>
 
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
+        <div className="quote">
           <p>“You need to be familiarised with it to know how to navigate”</p>
         </div>
         <p className="section-title-a">Define</p>
@@ -310,7 +303,9 @@ const Mixup = props => (
           For this reason why I decided to test it on 7 more users.
         </p>
         <p className="section-title-a">Results</p>
-        <p className="section-title pad-container">Success Rate Before & After Redesigning</p>
+        <p className="section-title pad-container">
+          Success Rate Before & After Redesigning
+        </p>
         <img src={SuccessRateAfter} className="persona" alt=""></img>
         <p className="section-title pad-container">Home Page</p>
         <div className="personas">
@@ -598,9 +593,8 @@ const Mixup = props => (
           effort possible. I am looking forward to expand my knowledge and
           creativity as I continue to work on different UX puzzles.
         </p>
-        <div style={{height: "2rem"}}></div>
+        <div style={{ height: "2rem" }}></div>
       </div>
-      
     </div>
     <div className="overlay"></div>
   </div>

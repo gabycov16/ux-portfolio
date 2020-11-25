@@ -55,21 +55,15 @@ const Ecolife = props => (
           amazing Michelle Sestier helped create the first wave of icons and
           images.
         </p>
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
+        <div className="quote">
           <p>
-            I feel many of us want to help the environment but we don’t know how
-            or where to begin.
+            "I feel many of us want to help the environment but we don’t know
+            how or where to begin."
           </p>
         </div>
 
-        
-              <p className="section-title pad-container">Design Process</p>
-              <img src={DesignProcess} className="design-process" alt=""></img>
-              
-          
+        <p className="section-title pad-container">Design Process</p>
+        <img src={DesignProcess} className="design-process" alt=""></img>
 
         <p className="section-title-a">Understand</p>
         <div className="text-columns-right">
@@ -82,7 +76,9 @@ const Ecolife = props => (
             goals, pain points and possible improvements in line to shine.
           </p>
         </div>
-        <p className="section-title pad-container">Semi-Structured Interviews</p>
+        <p className="section-title pad-container">
+          Semi-Structured Interviews
+        </p>
         <p className="text-e text-column-p">
           After I had the chance to talk with the app developer I wanted to have
           an in-depth understanding of the user’s perceptions, desirabilities
@@ -119,13 +115,10 @@ const Ecolife = props => (
           </ul>
         </div>
 
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
+        <div className="quote">
           <p>
-            Even I, who want to help the environment, get overwhelmed when I
-            just don't know what to do.
+            "Even I, who want to help the environment, get overwhelmed when I
+            just don't know what to do."
           </p>
         </div>
 
@@ -175,11 +168,8 @@ const Ecolife = props => (
           The main problem here is users dropout as soon as they can’t see the
           panorama with clarity.
         </p>
-        <div
-          className="quote"
-          style={{ backgroundImage: `url(${Conversation})` }}
-        >
-          <p className="quote">I want to know I’m making a change. </p>
+        <div className="quote">
+          <p className="quote">"I want to know I’m making a change." </p>
         </div>
         <p className="section-title pad-container">Main Challenges</p>
         <ul className="text-e">
@@ -251,7 +241,9 @@ const Ecolife = props => (
           <li>Thoughts and opinions.</li>
         </ul>
 
-        <p className="section-title pad-container">What changed after testing?</p>
+        <p className="section-title pad-container">
+          What changed after testing?
+        </p>
 
         <ul className="text-e">
           <li>I added a "Skip tutorial" button in the Tutorial section.</li>
@@ -269,7 +261,9 @@ const Ecolife = props => (
           After applying these changes I tested again with new users and these
           were the insights:
         </p>
-        <p className="section-title pad-container">Post-Test Questionnair Results</p>
+        <p className="section-title pad-container">
+          Post-Test Questionnair Results
+        </p>
 
         <p className="text-e">
           Why would you continue to use this app or what would stop you from
