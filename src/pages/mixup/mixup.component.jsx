@@ -10,7 +10,7 @@ import SuccessRateAfter from "../../assets/mixup/success-rate-after.png";
 import Star from "../../assets/green-star.svg";
 import StarVoid from "../../assets/green-star-void.svg";
 import ProblemSpots from "../../assets/problem-spots.png";
-import Matrix2x2 from "../../assets/2x2.jpg";
+import Matrix2x2 from "../../assets/mixup/2x2 analysis matrix.png";
 import MagicWand from "../../assets/magic-wand.png";
 import BeforeHomepage from "../../assets/mixup/before-homepage.png";
 import AfterHomepage from "../../assets/mixup/homepage.png";
