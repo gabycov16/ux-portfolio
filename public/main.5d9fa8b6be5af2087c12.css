@@ -250,9 +250,9 @@
     justify-content: space-evenly;
     padding-top: 30px;
     flex-direction: row;
-    font-family: 'Raleway', sans-serif; }
+    font-family: 'Nunito', sans-serif; }
     .header-container .menu .portfolio {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Nunito', sans-serif;
       font-weight: 500;
       color: #23aa8f;
       background-color: transparent;
@@ -270,7 +270,7 @@
       text-decoration: underline;
       color: #86d780; }
     .header-container .menu .aboutme {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Nunito', sans-serif;
       font-weight: 6500;
       color: #23aa8f;
       background-color: transparent;
@@ -864,7 +864,7 @@
         opacity: 1; }
 
 .contact {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -1193,7 +1193,7 @@ li {
     font-family: "Open Sans";
     white-space: pre-wrap;
     text-align: center;
-    font-family: "Raleway", sans-serif; }
+    font-family: "Nunito", sans-serif; }
   .body .banner {
     width: 70%;
     align-self: center;
