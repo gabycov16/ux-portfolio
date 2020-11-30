@@ -29,12 +29,24 @@ module.exports = {
         use: ["style-loader", "css-loader"]
       },
       {
+        test: /\.(woff|woff2|eot|ttf|svg)$/,
+        exclude: /node_modules/,
+        loader: "file-loader",
+        options: {
+          limit: 1024,
+          name: "[name].[ext]",
+          publicPath: "dist/assets/",
+          outputPath: "dist/assets/"
+        }
+      },
+
+      {
         test: /\.html$/,
         use: { loader: "html-loader" }
       },
       {
         test: /\.(png|svg|jpg|gif|ico)$/,
-        use: ['file-loader?name=[name].[ext]'] 
+        use: ["file-loader?name=[name].[ext]"]
       },
       {
         test: /\.module\.s(a|c)ss$/,
@@ -72,9 +84,9 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebpackPlugin({  
-      filename: 'index.html',
-      template: 'src/index.html',
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: "src/index.html",
       hash: true
     }),
     new MiniCssExtractPlugin({
@@ -83,6 +95,6 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".jsx", '.scss']
+    extensions: [".js", ".jsx", ".scss"]
   }
 };
