@@ -95,8 +95,8 @@ const Ecolife = props => (
           I found out there where 2 kinds of people who would be interested in
           using the app, therefore I created 2 personas.
         </p>
-        <img src={Persona1} className="persona" alt="Ecolife persona"></img>
-        <img src={Persona2} className="persona" alt="Ecolife persona"></img>
+        <img src={Persona1} className="cs-image" alt="Ecolife persona"></img>
+        <img src={Persona2} className="cs-image" alt="Ecolife persona"></img>
         <p className="cs-subtitle">Story Board</p>
         <p className="cs-paragraph">
           On this visual story I illustrated on a simple way the possible
