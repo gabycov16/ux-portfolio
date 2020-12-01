@@ -2,8 +2,8 @@ import React from "react";
 import "./portfolio.styles.scss";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "../../components/header/header.component";
-import Mixup from "../../assets/mixup.svg";
-import Ecolife from "../../assets/ecolife.svg";
+import Mixup from "../../assets/mixU.svg";
+import Ecolife from "../../assets/ecoL.svg";
 
 const Portfolio = ({ history, linkUrl, match }) => (
   <div className="king-container">
