@@ -28,26 +28,26 @@ const HomePage = props => (
             . Fond of changing the way we experience the world everyday.
           </p>
         </div>
-      </div>
-      <div className="buttons">
-        <form
-          action="https://www.linkedin.com/in/gabriela-co"
-          method="get"
-          target="_blank"
-        >
-          <button type="submit" className="button-b">
-            <a href="https://www.linkedin.com/in/gabriela-co" class="icon">
-              {" "}
-            </a>
-            LinkedIn
+        <div className="buttons-hp">
+          <form
+            action="https://www.linkedin.com/in/gabriela-co"
+            method="get"
+            target="_blank"
+          >
+            <button type="submit" className="button-b">
+              <a href="https://www.linkedin.com/in/gabriela-co" class="icon">
+                {" "}
+              </a>
+              LinkedIn
+            </button>
+          </form>
+          <button
+            onClick={() => props.history.push("/ux-portfolio")}
+            className="button-a"
+          >
+            UX Portfolio
           </button>
-        </form>
-        <button
-          onClick={() => props.history.push("/ux-portfolio")}
-          className="button-a"
-        >
-          UX Portfolio
-        </button>
+        </div>
       </div>
     </div>
     <div className="overlay"></div>

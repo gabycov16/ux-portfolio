@@ -4,56 +4,46 @@ import { Container, Row, Col } from "react-bootstrap";
 import Header from "../../components/header/header.component";
 import Mixup from "../../assets/mixU.svg";
 import Ecolife from "../../assets/ecoL.svg";
+import SoftSkills from "../../assets/soft-skill.svg";
+import Bg from "../../assets/bg.svg"; 
 
 const Portfolio = ({ history, linkUrl, match }) => (
   <div className="king-container">
-    <div className="homepage">
+    <div className="homepage" style={{backgroundImage: `url(${Bg})`}}>
       <Header />
       <Container>
-        <Row onClick={() => history.push("/ux-portfolio/ecolife")}>
-          <Col
-            xs={12}
-            sm={6}
-            md={6}
-            xl={6}
-            lg={6}
-            className="left-info"
-            onClick={() => history.push("/ux-portfolio/ecolife")}
-          >
-            <Col>
-              <p className="subtitle-info">A new way to help nature</p>
-            </Col>
-            <Col>
-              <div class="case-studies__b">
-                <p className="button-text">VIEW CASE STUDY</p>
+        <Row>
+          <Col onClick={() => history.push("/ux-portfolio/ecolife")}>
+            <div className="image image-1">
+              <img src={Ecolife} className="case-studies__image " alt=""></img>
+            </div>
+            <div className="image image-2">
+              <div class="content linkedin">
+                <p className="subtitle-info">A new way to help nature</p>
+                <div class="case-studies__b">
+                  <p className="button-text">VIEW CASE STUDY</p>
+                </div>
               </div>
-            </Col>
+            </div>
           </Col>
-          <Col
-            className="right-info"
-            onClick={() => history.push("/ux-portfolio/ecolife")}
-          >
-            <img src={Ecolife} className="case-studies__image" alt=""></img>
+          <Col onClick={() => history.push("/ux-portfolio/mixup")}>
+            <div className="image image-1">
+              <img src={Mixup} className="case-studies__image " alt=""></img>
+            </div>
+            <div className="image image-2">
+              <div class="content linkedin">
+                <p className="subtitle-info">Music & technology choice</p>
+                <div class="case-studies__b">
+                  <p className="button-text">VIEW CASE STUDY</p>
+                </div>
+              </div>
+            </div>
           </Col>
+          
+
         </Row>
       </Container>
-      <Container>
-        <Row onClick={() => history.push("/ux-portfolio/mixup")}>
-          <Col xs={12} sm={6} md={6} xl={6} lg={6} className="left-info">
-            <Col>
-              <p className="subtitle-info">Music & technology choice</p>
-            </Col>
-            <Col>
-              <div class="case-studies__b">
-                <p className="button-text">VIEW CASE STUDY</p>
-              </div>
-            </Col>
-          </Col>
-          <Col className="right-info">
-            <img src={Mixup} className="case-studies__image" alt=""></img>
-          </Col>
-        </Row>
-      </Container>
+
       <div className="contact">
         <span className="contact-title">Got a project in mind?</span>
         <span className="contact-subtitle">Feel free to reach me:</span>

@@ -2,16 +2,15 @@ import React from "react";
 import "./mixup.styles.scss";
 import Header from "../../components/header/header.component";
 import Banner from "../../assets/mixup/banner4.png";
-import DesignProcess from "../../assets/design-process-mixup.png";
-import Persona from "../../assets/persona-mixup.png";
-import CustomerJourney from "../../assets/customer-journey.png";
+import DesignProcess from "../../assets/mixup/design-process.png";
+import Persona from "../../assets/mixup/persona.png";
+import CustomerJourney from "../../assets/mixup/customerjourney.png";
 import SuccessRate from "../../assets/success-rate-mixup.png";
 import SuccessRateAfter from "../../assets/mixup/success-rate-after.png";
 import Star from "../../assets/green-star.svg";
 import StarVoid from "../../assets/green-star-void.svg";
 import ProblemSpots from "../../assets/problem-spots.png";
 import Matrix2x2 from "../../assets/mixup/2x2 analysis matrix.png";
-import MagicWand from "../../assets/magic-wand.png";
 import BeforeHomepage from "../../assets/mixup/before-homepage.png";
 import AfterHomepage from "../../assets/mixup/homepage.png";
 import BeforeMusicGenres from "../../assets/mixup/before-genres.png";
@@ -25,8 +24,6 @@ import AfterRegister from "../../assets/mixup/after-register.png";
 import BeforeCheckout from "../../assets/mixup/before-checkout.png";
 import AfterCheckout from "../../assets/mixup/after-checkout.png";
 import Blueish from "../../assets/mixup/blueish.png";
-import Conversation from "../../assets/conversation2.svg";
-import { Container } from "react-bootstrap";
 
 const Mixup = props => (
   <div className="king-container">

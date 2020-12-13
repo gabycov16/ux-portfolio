@@ -1,15 +1,14 @@
 .header-container {
   display: flex;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px 80px 0 80px;
+  padding: 20px 80px;
   flex-direction: row;
   position: sticky;
   top: 0;
   z-index: 100; /* this is optional and should be different for every project */
 
   // padding: 10% 10% 0 10%;
-  .image {
-    flex-grow: 2;
+
     .logo {
       cursor: pointer;
       display: block;
@@ -19,19 +18,20 @@
       background: url(../../assets/logo.svg);
       background-size: 150px 150px;
     }
-  }
+ 
   .menu {
     float: right;
     display: flex;
-    flex-grow: 2;
+    flex-grow: 1;
     justify-content: space-evenly;
+    align-items: center;
     padding-top: 30px;
     flex-direction: row;
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins";
     .portfolio {
-      font-family: "Nunito", sans-serif;
+      font-family: "Poppins";
       font-weight: 500;
-      color: #23aa8f;
+      color: #DA5B4D;
       text-decoration: none;
       background-color: transparent;
       font-size: 18px;
@@ -47,16 +47,16 @@
 
     :visited {
       text-decoration: underline;
-      color: #86d780;
+      //color: #DA5B4D;
     }
     :hover {
       text-decoration: underline;
-      color: #86d780;
+      color: #F08B3D;
     }
     .aboutme {
-      font-family: "Nunito", sans-serif;
+      font-family: "Poppins", sans-serif;
       font-weight: 6500;
-      color: #23aa8f;
+      color: #DA5B4D;
       background-color: transparent;
       font-size: 18px;
       border: none;
@@ -69,11 +69,11 @@
       }
     }
     [aria-pressed="true"] {
-      color: #86d780;
+      color: #DA5B4D;
     }
     :hover {
       text-decoration: underline;
-      color: #86d780;
+      color: #F08B3D;
     }
   }
 }

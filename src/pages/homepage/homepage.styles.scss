@@ -23,9 +23,9 @@ $scrollLength: 100vh;
           width: 100px;
         }
         .tab {
-          font-family: "Nunito", sans-serif;
+          font-family: 'Poppins';
           font-weight: 500;
-          color: #23aa8f;
+          color: #5a288e;
           text-decoration: none;
           background-color: transparent;
           font-size: 18px;
@@ -40,10 +40,10 @@ $scrollLength: 100vh;
         }
         :visited {
           text-decoration: underline;
-          color: #86d780;
+          color: #da5b4d;
         }
         :hover {
-          color: #86d780;
+          color: #da5b4d;
         }
       }
     }
@@ -106,13 +106,13 @@ $scrollLength: 100vh;
         text-decoration: none;
         pointer-events: none;
         align-self: center;
-        color: #86d780;
+        color: #da5b4d;
         font-weight: 400;
         font-size: 65px;
         font-family: "MuseoModerno";
       }
       .title-surname {
-        color: #3a5a6b;
+        color: #5a288e;
         font-weight: 400;
         font-size: 65px;
         font-family: "MuseoModerno", cursive;
@@ -122,25 +122,119 @@ $scrollLength: 100vh;
       .bio-homepage {
         float: right;
         padding: 20px 50px;
-        font-size: 30px;
-        font-family: "Nunito", sans-serif;
+        font-size: 25px;
+        font-family: 'Poppins';
         .text {
           color: #6c6c6c;
           font-weight: 200;
-          text-align: center;
+          text-align: left;
         }
         .name {
-          color: #86d780;
+          color: #da5b4d;
           font-weight: 800;
           text-decoration: none;
           pointer-events: none;
         }
         .emphasis {
-          color: #23aa8f;
+          color: #da5b4d;
           font-weight: 300;
           text-decoration: none;
           pointer-events: none;
-          font-size: 30px;
+          font-size: 25px;
+        }
+      }
+    }
+    .buttons-hp {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      .button-a {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 24px;
+        color: #5a288e;
+        width: 200px;
+        height: 50px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        border: 1px solid #5a288e;
+        background-color: transparent;
+        cursor: pointer;
+        margin: 5px 20px;
+        &:focus {
+          outline: transparent;
+        }
+        &:hover {
+          cursor: pointer;
+          border: 1px solid #da5b4d;
+          color: #da5b4d;
+          .icon {
+            margin: 0;
+            padding: 0;
+            display: block;
+            align-self: center;
+            width: 20px;
+            height: 20px;
+            background: url(../../assets/linkedin2.svg);
+            background-size: 20px 20px;
+          }
+        }
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .button-b {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 24px;
+        color: #5a288e;
+        width: 200px;
+        height: 50px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        border: 1px solid #5a288e;
+        background-color: transparent;
+        cursor: pointer;
+        margin: 5px 20px;
+        &:focus {
+          outline: transparent;
+        }
+        &:hover {
+          cursor: pointer;
+          border: 1px solid #da5b4d;
+          color: #da5b4d;
+          .icon {
+            margin: 0;
+            padding: 0;
+            display: block;
+            align-self: center;
+            width: 20px;
+            height: 20px;
+            background: url(../../assets/linkedin2.svg);
+            background-size: 20px 20px;
+          }
+        }
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin.svg);
+          background-size: 20px 20px;
         }
       }
     }
@@ -153,7 +247,7 @@ $scrollLength: 100vh;
     bottom: 0;
     height: 100%;
     z-index: -10;
-    background-color: #86d780;
+    background-color: #da5b4d;
     //background-color: #007882;
   }
   @keyframes expand {

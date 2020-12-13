@@ -20,3 +20,11 @@ code {
   font-family: 'Halant';
   src: local('Halant'), url(./assets/Halant/Halant-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(./assets/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display'), url(./assets/Playfair_Display/PlayfairDisplay-Regular.ttf) format('truetype');
+}
