@@ -1,6 +1,6 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import Gab from "../../assets/logo2.svg";
+import Gab from "../../assets/logo.svg";
 
 import "./header.styles.scss";
 
