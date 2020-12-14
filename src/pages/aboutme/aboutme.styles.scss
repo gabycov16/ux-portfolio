@@ -1,4 +1,5 @@
 .homepage {
+  overflow-x: hidden;
   background-size: 100vw;
   .vh100 {
     margin-bottom: 10em;
@@ -44,7 +45,7 @@
   }
   .bio {
     position: relative;
-    font-family: 'Poppins';
+    font-family: "Poppins";
     padding: 0px 200px;
     font-size: 20px;
     height: 500px;
@@ -57,12 +58,7 @@
       border-radius: 35%;
       bottom: 0;
     }
-    .intro {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      width: 550px;
-      left: 145px;
+    .intro-container {
       background: rgba(255, 255, 255, 0.2);
       padding: 3em;
       border-radius: 3em;
@@ -71,22 +67,38 @@
       border: solid 2px transparent;
       background-clip: padding-box;
       box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
-      .text {
-        color: #6c6c6c;
-        font-weight: 200;
-        text-align: left;
-      }
-      .name {
-        color: #da5b4d;
-        font-weight: 700;
-        text-decoration: none;
-        pointer-events: none;
-      }
-      .emphasis {
-        color: #5a288e;
-        font-weight: 500;
-        text-decoration: none;
-        pointer-events: none;
+      width: 550px;
+      height: 550px;
+      left: 180px;
+      .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0;
+        .text {
+          color: #6c6c6c;
+          font-weight: 200;
+          text-align: left;
+        }
+        .name {
+          color: #da5b4d;
+          font-weight: 700;
+          text-decoration: none;
+          pointer-events: none;
+        }
+        .emphasis {
+          color: #5a288e;
+          font-weight: 500;
+          text-decoration: none;
+          pointer-events: none;
+        }
+        &::-webkit-scrollbar {
+          background: transparent;
+          width: 0px;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: transparent;
+        }
       }
     }
   }
@@ -95,8 +107,148 @@
     padding: 0 300px;
     margin-top: 30px;
   }
-  .buttons {
+  .buttons-ab {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .button-a {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #5a288e;
+      width: 200px;
+      height: 50px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #5a288e;
+      background-color: transparent;
+      cursor: pointer;
+      //margin: 20px;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #da5b4d;
+        color: #da5b4d;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/linkedin.svg);
+        background-size: 20px 20px;
+      }
+    }
+    .button-b {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #5a288e;
+      width: 200px;
+      height: 50px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #5a288e;
+      background-color: transparent;
+      cursor: pointer;
+      //margin: 20px;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #da5b4d;
+        color: #da5b4d;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/linkedin.svg);
+        background-size: 20px 20px;
+      }
+    }
+    .button-c {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #5a288e;
+      width: 280px;
+      height: 50px;
+      margin: 0 6px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      border: 1px solid #5a288e;
+      background-color: transparent;
+      cursor: pointer;
+      z-index: 100;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #da5b4d;
+        color: #da5b4d;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/mail2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        color: #5a288e;
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/mail.svg);
+        background-size: 20px 20px;
+      }
+    }
+  }
+  .buttons-hide {
+    display: none;
     flex-direction: column;
 
     .button-a {
@@ -234,14 +386,67 @@
       }
     }
   }
+  .buttons-mobile {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    .button-a {
+      margin: 0 0.5em;
+      img {
+        height: 25px;
+      }
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 24px;
+      color: #5a288e;
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      border: 1px solid #5a288e;
+      background-color: transparent;
+      cursor: pointer;
+      //margin: 20px;
+      &:focus {
+        outline: transparent;
+      }
+      &:hover {
+        cursor: pointer;
+        border: 1px solid #da5b4d;
+        color: #da5b4d;
+        .icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/linkedin2.svg);
+          background-size: 20px 20px;
+        }
+      }
+      .icon {
+        margin: 0;
+        padding: 0;
+        display: block;
+        align-self: center;
+        width: 20px;
+        height: 20px;
+        background: url(../../assets/linkedin.svg);
+        background-size: 20px 20px;
+      }
+    }
+  }
 
   .section-title {
     font-size: 30px;
-    color: #5A288E;
+    color: #5a288e;
     font-weight: 600;
     margin-bottom: 0;
     padding: 1.3em 0;
-    font-family: 'Playfair Display';
+    font-family: "Playfair Display";
   }
 
   .image-text {
@@ -305,7 +510,7 @@
     }
   }
   .section-container {
-    font-family: 'Playfair Display';
+    font-family: "Playfair Display";
     background: rgba(255, 255, 255, 0.2);
     padding: 2em;
     margin: 1.5em 0;
@@ -319,135 +524,190 @@
     left: 25vw;
   }
 }
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px transparent;
+  border-radius: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(125deg, #5a288e, #aa303e, #da5b4d);
+  border-radius: 14px;
+  height: 14px;
+  max-height: 14px;
+  box-shadow: inset 0 0 14px #ffffff70;
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+  .homepage {
+    .bio {
+      .portrait {
+        left: 100px;
+        top: 100px;
+        padding: 2.5em;
+      }
+      .intro-container {
+        left: 170px;
+        width: 450px;
+        height: 650px;
+      }
+    }
+  }
+}
 @media screen and (min-device-width: 900px) and (max-device-width: 1000px) {
   .homepage {
-    .buttons {
-      padding: 0 200px;
-      .button-a {
-        width: 180px;
-        font-size: 18px;
-      }
+    .buttons-hide {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 3em;
     }
+    .buttons-ab {
+      display: none;
+    }
+
     .bio {
-      padding: 0 200px;
       .portrait {
-        margin-bottom: 50px;
+        left: 100px;
+        top: 0px;
+        padding: 0 2.5em;
+        width: 60vw;
+        top: 0;
+      }
+      .intro-container {
+        left: 170px;
+        width: 350px;
+        height: 500px;
+
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: 400px;
+          display: block;
+        }
       }
     }
-    .image-text {
-      padding: 0 0 40px 0;
+    .section-container {
+      margin: 2em 0;
+      padding: 1.5em;
     }
   }
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 900px) {
   .homepage {
-    .pad-container {
-      padding: 0 120px;
-      margin-top: 30px;
+    .buttons-hide {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 3em;
     }
+    .buttons-ab {
+      display: none;
+    }
+
     .bio {
-      padding: 0px 120px;
-      font-size: 20px;
+      font-size: 16px;
       .portrait {
-        margin-bottom: 50px;
+        left: 100px;
+        top: 0px;
+        padding: 0 2.5em;
+        width: 60vw;
+        top: 0;
+      }
+      .intro-container {
+        left: 170px;
+        width: 40vw;
+        height: 400px;
+        padding: 2em;
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: 320px;
+          display: block;
+        }
       }
     }
-    .buttons {
-      padding: 0 120px;
-      .button-a {
-        width: 180px;
-        font-size: 18px;
-      }
-      .button-b {
-        font-size: 18px;
-        width: 150px;
-      }
-      .button-c {
-        font-size: 18px;
-        width: 230px;
-      }
-    }
-    .image-text {
-      padding: 0 120px 40px;
+    .section-container {
+      margin: 2em 0;
+      padding: 1.5em;
     }
   }
 }
 
 @media screen and (min-device-width: 600px) and (max-device-width: 768px) {
   .homepage {
-    .pad-container {
-      padding: 0 100px;
-      margin-top: 30px;
+    .vh100 {
+      margin-bottom: 0;
     }
-    .bio {
-      padding: 0px 100px;
-      font-size: 20px;
-      .portrait {
-        margin-bottom: 30px;
-      }
-    }
-    .buttons {
-      padding: 0 100px;
-      align-items: center;
+    .buttons-hide {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 3em;
       .button-a {
-        width: 180px;
         font-size: 18px;
+        width: 180px;
       }
-      form {
-        display: flex;
-        height: 50px;
-        width: 260px;
-        align-items: center;
-        justify-content: center;
-        .button-c {
-          font-size: 18px;
-          width: 210px;
-        }
-        .button-b {
-          font-size: 18px;
+      .button-b {
+        font-size: 18px;
+        width: 180px;
+      }
+    }
+    .buttons-ab {
+      display: none;
+    }
+
+    .bio {
+      font-size: 16px;
+      height: auto;
+      .portrait {
+        left: 30px;
+        top: 0px;
+        padding: 0 2.5em;
+        width: 60vw;
+        top: 0;
+      }
+      .intro-container {
+        left: 60px;
+        width: 45vw;
+        height: 300px;
+        padding: 2em;
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: 230px;
+          display: block;
         }
       }
     }
     .section-title {
-      font-size: 20px;
+      font-size: 25px;
+    }
+    .section-container {
+      margin: 2em 0;
+      padding: 1.5em;
+      width: 70vw;
+      left: 15vw;
     }
     .image-text {
-      padding: 0 100px 40px;
-      //padding-right: 0;
-      //margin-right: 0 !important;
-      //margin-left: 100px;
-      display: flex;
-      align-items: center;
-      img {
-        width: 50px;
-        height: 50px;
-        padding-right: 0;
+      a {
+        font-size: 16px;
       }
+
       .text-wrapper {
         .title {
           font-size: 18px;
         }
         .subtitle {
-          font-size: 18px;
+          font-size: 16px;
         }
-      }
-    }
-    .contact {
-      margin-top: 50px;
-      img {
-        height: 9px;
-        margin-bottom: 30px;
-      }
-      .contact-title {
-        font-size: 25px;
-      }
-      .contact-subtitle {
-        font-size: 20px;
-      }
-      .email {
-        color: #5a288e;
-        font-size: 20px;
       }
     }
   }
@@ -455,70 +715,78 @@
 
 @media screen and (min-device-width: 500px) and (max-device-width: 600px) {
   .homepage {
-    .pad-container {
-      padding: 0 100px;
-      margin-top: 30px;
+    .vh100 {
+      margin-bottom: 0;
     }
-    .bio {
-      padding: 0px 100px;
-      font-size: 20px;
-      .portrait {
-        margin-bottom: 30px;
-      }
-    }
-    .buttons {
-      padding: 0 100px;
-      align-items: center;
-      flex-wrap: wrap;
-      align-content: space-evenly;
-      height: 130px;
-      .button-a {
-        width: 150px;
-        font-size: 18px;
-      }
+    .buttons-hide {
+      display: flex;
+      flex-direction: row;
+      margin-top: 2em;
+      justify-content: center;
       form {
-        height: 50px;
-        width: 260px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .button-c {
-          font-size: 18px;
-          width: 210px;
-        }
-        .button-b {
-          font-size: 18px;
-          width: 160px;
+        width: 200px;
+      }
+      .button-a {
+        font-size: 18px;
+        width: 180px;
+      }
+      .button-b {
+        font-size: 18px;
+        width: 180px;
+      }
+    }
+    .buttons-ab {
+      display: none;
+    }
+
+    .bio {
+      font-size: 16px;
+      height: auto;
+      .portrait {
+        left: 30px;
+        top: 0px;
+        padding: 0 2.5em;
+        width: 60vw;
+        top: 0;
+      }
+      .intro-container {
+        left: 15px;
+        width: 45vw;
+        height: 300px;
+        padding: 2em;
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: 230px;
+          display: block;
         }
       }
     }
     .section-title {
-      font-size: 20px;
+      font-size: 23px;
+    }
+    .section-container {
+      margin: 2em 0;
+      padding: 1.5em;
+      width: 70vw;
+      left: 15vw;
     }
     .image-text {
-      padding: 0 100px 40px;
-      display: flex;
-      align-items: center;
-      img {
-        width: 50px;
-        height: 50px;
-        padding-right: 0;
+      a {
+        font-size: 16px;
       }
+
       .text-wrapper {
         .title {
+          display: none;
           font-size: 18px;
         }
         .subtitle {
-          font-size: 18px;
+          font-size: 16px;
         }
       }
     }
     .contact {
-      margin-top: 50px;
-      img {
-        height: 9px;
-        margin-bottom: 30px;
-      }
       .contact-title {
         font-size: 25px;
       }
@@ -526,7 +794,6 @@
         font-size: 20px;
       }
       .email {
-        color: #5a288e;
         font-size: 20px;
       }
     }
@@ -535,60 +802,70 @@
 
 @media screen and (min-device-width: 400px) and (max-device-width: 500px) {
   .homepage {
-    .pad-container {
-      padding: 0 60px;
-      margin-top: 20px;
+    .vh100 {
+      margin-bottom: 0;
     }
+    .buttons-hide {
+      display: none;
+    }
+    .buttons-mobile {
+      display: flex;
+    }
+    .buttons-ab {
+      display: none;
+    }
+
     .bio {
-      padding: 0px 60px;
       font-size: 16px;
+      height: auto;
       .portrait {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 30px;
+        left: 0px;
+        top: 0px;
+        padding: 0 2.5em;
+        width: 60vw;
+        top: 0;
+        position: relative;
       }
-    }
-    .buttons {
-      padding: 0 60px;
-      align-items: center;
-      flex-wrap: wrap;
-      align-content: space-evenly;
-      height: 130px;
-      .button-a {
-        width: 150px;
-        font-size: 15px;
-      }
-      form {
-        width: 260px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .button-c {
-          font-size: 15px;
-          width: 210px;
-        }
-        .button-b {
-          font-size: 15px;
-          height: 44px;
-          width: 160px;
+      .intro-container {
+        left: -170px;
+        top: -10px;
+        width: 82vw;
+        height: auto;
+        padding: 2em;
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: auto;
+          display: block;
         }
       }
     }
     .section-title {
-      font-size: 18px;
+      font-size: 23px;
+      text-align: center;
+    }
+    .section-container {
+      margin: 2em 0;
+      padding: 1em;
+      width: 70vw;
+      left: 15vw;
     }
     .image-text {
-      padding: 0 60px 40px;
-      display: flex;
-      align-items: center;
+      flex-direction: column;
       img {
-        width: 50px;
-        height: 50px;
-        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+        align-self: center;
       }
+      a {
+        font-size: 16px;
+      }
+
       .text-wrapper {
+        text-align: center;
         .title {
-          font-size: 16px;
+          display: none;
+          font-size: 18px;
         }
         .subtitle {
           font-size: 16px;
@@ -596,20 +873,14 @@
       }
     }
     .contact {
-      margin-top: 50px;
-      img {
-        height: 9px;
-        margin-bottom: 30px;
-      }
       .contact-title {
-        font-size: 20px;
+        font-size: 25px;
       }
       .contact-subtitle {
-        font-size: 15px;
+        font-size: 20px;
       }
       .email {
-        color: #5a288e;
-        font-size: 15px;
+        font-size: 20px;
       }
     }
   }
@@ -617,82 +888,83 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 400px) {
   .homepage {
-    .pad-container {
-      padding: 0 50px;
-      margin-top: 20px;
+    .vh100 {
+      margin-bottom: 0;
+      background-image: none;
+      background-color: #fff;
+      animation: none;
     }
+    .buttons-hide {
+      display: none;
+    }
+    .buttons-mobile {
+      display: flex;
+    }
+    .buttons-ab {
+      display: none;
+    }
+
     .bio {
-      padding: 0px 50px;
       font-size: 16px;
+      height: auto;
       .portrait {
-        width: 100px;
-        height: 100px;
-        margin-bottom: 30px;
+        display: none;
       }
-    }
-    .buttons {
-      padding: 0 50px;
-      align-items: center;
-      flex-wrap: wrap;
-      align-content: space-evenly;
-      height: 150px;
-      .button-a {
-        width: 150px;
-        font-size: 18px;
-      }
-      form {
-        height: 50px;
-        width: 260px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .button-c {
-          font-size: 16px;
-          width: 210px;
-        }
-        .button-b {
-          font-size: 16px;
-          height: 44px;
-          width: 160px;
+      .intro-container {
+        left: -170px;
+        top: 0px;
+        width: 82vw;
+        height: auto;
+        padding: 2em;
+        //display: block;
+        .intro {
+          overflow-y: scroll;
+          height: auto;
+          display: block;
         }
       }
     }
     .section-title {
-      font-size: 18px;
+      font-size: 23px;
+      text-align: center;
+    }
+    .section-container {
+      margin: 2em 0;
+      padding: 1em;
+      width: 70vw;
+      left: 15vw;
     }
     .image-text {
-      padding: 0 50px 40px;
-      display: flex;
-      align-items: center;
+      flex-direction: column;
       img {
-        width: 50px;
-        height: 50px;
-        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+        align-self: center;
       }
+      a {
+        font-size: 16px;
+      }
+
       .text-wrapper {
+        text-align: center;
         .title {
-          font-size: 15px;
+          display: none;
+          font-size: 18px;
         }
         .subtitle {
-          font-size: 15px;
+          font-size: 16px;
         }
       }
     }
     .contact {
-      margin-top: 50px;
-      img {
-        height: 9px;
-        margin-bottom: 30px;
-      }
       .contact-title {
         font-size: 20px;
       }
       .contact-subtitle {
-        font-size: 15px;
+        font-size: 16px;
       }
       .email {
-        color: #5a288e;
-        font-size: 15px;
+        font-size: 16px;
       }
     }
   }

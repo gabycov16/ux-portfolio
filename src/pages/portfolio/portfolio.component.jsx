@@ -9,7 +9,7 @@ import Bg from "../../assets/bg.svg";
 
 const Portfolio = ({ history, linkUrl, match }) => (
   <div className="king-container">
-    <div className="homepage" style={{backgroundImage: `url(${Bg})`}}>
+    <div className="homepage">
       <Header />
       <Container>
         <Row>
