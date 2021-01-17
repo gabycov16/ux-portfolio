@@ -182,7 +182,7 @@ const Ecolife = props => (
           a couple guerrilla testings.
         </p>
 
-        <img src={Greenie} className="design-process" alt=""></img>
+        <img src={Greenie} className="persona" alt=""></img>
 
         <p className="cs-title">4. Test</p>
         <p className="cs-paragraph">
@@ -209,7 +209,7 @@ const Ecolife = props => (
             not click it instead of the "Go back" button by mistake.
           </li>
         </ul>
-        <img src={Mejoras} className="design-process" alt=""></img>
+        <img src={Mejoras} className="persona" alt=""></img>
         <p className="cs-paragraph">
           After applying these changes I tested again with new users and these
           were the insights:
@@ -250,7 +250,7 @@ const Ecolife = props => (
         </div>
         <p className="cs-title">Results</p>
         <p className="cs-subtitle ">Missions</p>
-        <img src={Misiones} className="design-process" alt=""></img>
+        <img src={Misiones} className="persona" alt=""></img>
         <ul className="cs-paragraph">
           <li>
             I included directions for when a user is new they know they have to
@@ -266,7 +266,7 @@ const Ecolife = props => (
           </li>
         </ul>
         <p className="cs-subtitle">Achievements</p>
-        <img src={Logros} className="design-process" alt=""></img>
+        <img src={Logros} className="persona" alt=""></img>
         <ul className="cs-paragraph">
           <li>
             The Achievements section includes 3 tabs: Unlocked, Badges and
@@ -279,13 +279,13 @@ const Ecolife = props => (
           </li>
         </ul>
         <p className="cs-subtitle">Tutorials</p>
-        <img src={Tutoriales} className="design-process" alt=""></img>
+        <img src={Tutoriales} className="persona" alt=""></img>
         <ul className="cs-paragraph">
           <li>This is a feature people asked for.</li>
           <li>They are going to be unlocked as they complete missions.</li>
         </ul>
         <p className="cs-subtitle">EcoWisdom</p>
-        <img src={EcoWisdom} className="design-process" alt=""></img>
+        <img src={EcoWisdom} className="persona" alt=""></img>
         <ul className="cs-paragraph">
           <li>
             For the EcoWisdom section I wanted to keep it simple: Image, Title
@@ -298,7 +298,7 @@ const Ecolife = props => (
           <li>And decided to use the whole screen to present the article.</li>
         </ul>
         <p className="cs-subtitle">Tutorial</p>
-        <img src={Tutorial} className="design-process" alt=""></img>
+        <img src={Tutorial} className="persona" alt=""></img>
         <ul className="cs-paragraph">
           <li>The objective here was to make clear the path for the users.</li>
           <li>

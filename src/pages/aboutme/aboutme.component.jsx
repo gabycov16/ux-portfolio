@@ -1,6 +1,5 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-
 import "./aboutme.styles.scss";
 import Header from "../../components/header/header.component";
 import Portrait from "../../assets/avatar.png";
@@ -116,7 +115,7 @@ const AboutMePage = props => (
           </button>
         </div>
       </div>
-      <div className="section-container">
+      <div className="section-container" data-aos="fade-up">
         <p className="section-title">Work</p>
         <div className="image-text">
           <img src={Accenture} alt=""></img>
@@ -135,7 +134,7 @@ const AboutMePage = props => (
           </div>
         </div>
       </div>
-      <div className="section-container">
+      <div className="section-container" data-aos="fade-up">
         <p className="section-title">Volunteering</p>
         <div className="image-text">
           <img src={Cefim} alt=""></img>
@@ -183,9 +182,7 @@ const AboutMePage = props => (
           <img src={Idf} alt=""></img>
           <div className="text-wrapper">
             <p className="title">Interaction Design Foundation</p>
-            <p className="subtitle">
-              Mobile User Experience (UX) Design
-            </p>
+            <p className="subtitle">Mobile User Experience (UX) Design</p>
             <a href="https://www.interaction-design.org/gabriela-colin/certificate/course/b0a6afc1-995a-4cbc-a0ef-e979f5c0325e">
               Course certificate
             </a>

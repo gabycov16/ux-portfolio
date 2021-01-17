@@ -19,20 +19,34 @@ const Portfolio = ({ history, linkUrl, match }) => (
             </div>
             <div className="image image-2">
               <div class="content linkedin">
-                <p className="subtitle-info">A new way to help nature</p>
+                <p className="subtitle-info">Mobile app: A new way to help nature</p>
                 <div class="case-studies__b">
                   <p className="button-text">VIEW CASE STUDY</p>
                 </div>
               </div>
             </div>
           </Col>
+          <Col onClick={() => history.push("/ux-portfolio/soft-skills")}>
+            <div className="image image-1">
+              <img src={SoftSkills} className="case-studies__image " alt=""></img>
+            </div>
+            <div className="image image-2">
+              <div class="content linkedin">
+                <p className="subtitle-info">Webpage: Helping young ones master skills and get the job </p>
+                <div class="case-studies__b">
+                  <p className="button-text">VIEW CASE STUDY</p>
+                </div>
+              </div>
+            </div>
+          </Col>
+          
           <Col onClick={() => history.push("/ux-portfolio/mixup")}>
             <div className="image image-1">
               <img src={Mixup} className="case-studies__image " alt=""></img>
             </div>
             <div className="image image-2">
               <div class="content linkedin">
-                <p className="subtitle-info">Music & technology choice</p>
+                <p className="subtitle-info">Webpage: Music & technology choice</p>
                 <div class="case-studies__b">
                   <p className="button-text">VIEW CASE STUDY</p>
                 </div>
