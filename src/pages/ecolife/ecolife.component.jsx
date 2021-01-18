@@ -2,7 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import "./ecolife.styles.scss";
 import Header from "../../components/header/header.component";
-import HorizontalImage from "../../assets/ecolife/banner.png";
+import HorizontalImage from "../../assets/ecolife/banner_ecolife.png";
 import DesignProcess from "../../assets/ecolife/design-process.png";
 import Persona1 from "../../assets/ecolife/persona1.png";
 import Persona2 from "../../assets/ecolife/persona2.png";
