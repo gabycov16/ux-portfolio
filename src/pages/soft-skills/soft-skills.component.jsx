@@ -244,7 +244,20 @@ const SoftSkills = props => (
         <img src={ProfileHighFi} className="persona effect4" alt=""></img>
         <img src={CourseHighFi} className="persona effect4" alt=""></img>
         <img src={ContactHighFi} className="persona effect4" alt=""></img>
-
+        <div className="buttons-hp">
+          <form
+            action="https://www.figma.com/proto/n78hvLG4RuaOOwe7bvVCVV/UX-Academy-Equipo-2?node-id=239%3A1&scaling=min-zoom"
+            method="get"
+            target="_blank"
+          >
+            <button type="submit" className="button-b">
+              <a href="https://www.figma.com/proto/n78hvLG4RuaOOwe7bvVCVV/UX-Academy-Equipo-2?node-id=239%3A1&scaling=min-zoom" class="figma">
+                {" "}
+              </a>
+              See more
+            </button>
+          </form>
+        </div>
         <p className="cs-title">Reflections & Lessons</p>
         <p className="cs-paragraph">
           This is a project we worked on for the XD Academy in Accenture. The

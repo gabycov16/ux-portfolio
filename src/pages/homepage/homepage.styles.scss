@@ -23,7 +23,7 @@ $scrollLength: 100vh;
           width: 100px;
         }
         .tab {
-          font-family: 'Poppins';
+          font-family: "Poppins";
           font-weight: 500;
           color: #5a288e;
           text-decoration: none;
@@ -123,7 +123,7 @@ $scrollLength: 100vh;
         float: right;
         padding: 20px 50px;
         font-size: 25px;
-        font-family: 'Poppins';
+        font-family: "Poppins";
         .text {
           color: #6c6c6c;
           font-weight: 200;
@@ -181,6 +181,9 @@ $scrollLength: 100vh;
             background: url(../../assets/linkedin2.svg);
             background-size: 20px 20px;
           }
+          .figma {
+            background: url(../../assets/soft-skills/figma-brands.svg);
+          }
         }
         .icon {
           margin: 0;
@@ -192,6 +195,7 @@ $scrollLength: 100vh;
           background: url(../../assets/linkedin.svg);
           background-size: 20px 20px;
         }
+        
       }
       .button-b {
         display: flex;
@@ -225,6 +229,10 @@ $scrollLength: 100vh;
             background: url(../../assets/linkedin2.svg);
             background-size: 20px 20px;
           }
+          .figma {
+            background: url(../../assets/soft-skills/figma-brands-hover.svg);
+            background-size: 20px 20px;
+          }
         }
         .icon {
           margin: 0;
@@ -234,6 +242,16 @@ $scrollLength: 100vh;
           width: 20px;
           height: 20px;
           background: url(../../assets/linkedin.svg);
+          background-size: 20px 20px;
+        }
+        .figma {
+          margin: 0;
+          padding: 0;
+          display: block;
+          align-self: center;
+          width: 20px;
+          height: 20px;
+          background: url(../../assets/soft-skills/figma-brands.svg);
           background-size: 20px 20px;
         }
       }
